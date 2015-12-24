@@ -3,8 +3,8 @@
 
 <head>
     <title>{{IME APARATA}}</title>
-    <link href="css/bootstrap.min.css" type="text/css" />
-    <link href="css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" />
     <!-- CSS for product pages -->
     <link rel="stylesheet" href="css/product.css" type="text/css" />
 </head>
@@ -29,10 +29,16 @@
     <p class="path"><?php echo getcwd() . "\n" . "{{IME APARATA}}"; ?></p>
     <div class="product">
         <div class="porTumb">
+
         </div>
         <div class="mainImg">
-
             <img />
+            <div class="share">
+
+            </div>
+        </div>
+        <div class="specPrac">
+
         </div>
     </div>
 </body>

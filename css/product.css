@@ -40,6 +40,7 @@ PART WITH SPECIAL OFFERS
     margin: 0 5px;
 }
 .gur>p{
+    margin-top: 15px;
     color: #fff;
 }
 
@@ -52,7 +53,24 @@ PART WITH SPECIAL OFFERS
 START
 MAIN PRODUCT PART
 */
+.product{
+    width: 100%;
+    height: 850px;
+}
 
+.porTumb{
+    width: 10%;
+    height: 600px;
+    margin-top: 100px;
+    float: left;
+}
+
+.mainImg{
+    width: 50%;
+    height: 800px;
+    margin-top: 20px;
+    float: left;
+}
 /*
 END
 MAIN PRODUCT PART
