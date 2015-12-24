@@ -16,4 +16,43 @@ body{
     margin: auto;
     width: 60%;
 }
+/*
+START
+PART WITH SPECIAL OFFERS
+*/
+.specials{
+    width: 100%;
+    background-color: #00b9ad;
+    height: 80px;
+}
 
+.gur{
+    width: 31%;
+    float: left;
+    height: 50px;
+    margin: 1%;
+    border-right: 2px dotted white;
+}
+
+.gur>img{
+    height: 100%;
+    float: left;
+    margin: 0 5px;
+}
+.gur>p{
+    color: #fff;
+}
+
+/*
+END
+PART WITH SPECIAL OFFERS
+*/
+
+/*
+START
+MAIN PRODUCT PART
+*/
+/*
+END
+MAIN PRODUCT PART
+*/
