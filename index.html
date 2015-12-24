@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>On the line</title>
+    <link href="/css/bootstrap.min.css" type="text/css" />
+    <link href="/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <img src="img/head.png" />
+    </header>
+    <div class="downoard">
+        <div class="call">
+            <p>FREE CALL
+                <br/>
+                <span>0800 888 888</span>
+            </p>
+        </div>
+        <div class="search">
+            <form action="search.php" method="get">
+                <select name="type" class="products">
+                    <option value="all">All</option>
+                    <option value="wmd">Washing machines & Dryers</option>
+                    <option value="frf">Fridges & Freezers</option>
+                    <option value="dis">Dishwashers</option>
+                    <option value="coo">Cooking</option>
+                    <option value="bui">Built-in</option>
+                    <option value="sma">Small Appliances</option>
+                    <option value="sav">Sound & Vision</option>
+                    <option value="kit">Kitchens</option>
+                    <option value="acc">Accessories</option>
+                </select>
+                <input type="text" class="searchIn" name="term" placeholder="Search for products, brands or advice..." />
+                <button type="submit" class="butSear"></button>
+            </form>
+        </div>
+        <div class="account">
+            <img src="img/acc.png" class="acc"/>
+            <p class="myAcc">MY ACCOUNT<br/>
+            <a href="login.php">Login</a>
+            <span>|</span>
+            <a href="register.php">Register</a>
+            </p>            
+        </div>
+    </div>
+    <div class="filterDiv">
+        <p class="filters">Washing machines & Dryers</p>
+        <p class="filters">Fridges & Freezers</p>
+        <p class="filters">Dishwashers</p>
+        <p class="filters">Cooking</p>
+        <p class="filters">Built-in</p>
+        <p class="filters">Small Appliances</p>
+        <p class="filters">Sound & Vision</p>
+        <p class="filters">Kitchens</p>
+        <p class="filters">Accessories</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js" type="application/javascript"></script>
+    <!--    <script src="js/npm.js" type="application/javascript"></script>-->
+</body>
+
+</html>
