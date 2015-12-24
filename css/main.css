@@ -2,58 +2,60 @@
     font-family: Montserrat-Bold;
     src: url('../fonts/Montserrat-Bold.otf');
 }
+
 @font-face {
     font-family: Montserrat-Light;
     src: url('../fonts/Montserrat-Light.otf');
 }
+
 @font-face {
     font-family: Montserrat-Regular;
     src: url('../fonts/Montserrat-Regular.otf');
 }
 
-body{
+body {
     font-family: Montserrat-Regular;
     margin: auto;
     width: 60%;
 }
 
-header{
+header {
     width: 100%;
-    height: 60px;
+    height: 300px;
     margin: 15px 0;
 }
 
-header>img{
+header>img {
     margin-left: 40%;
     margin-top: 15px;
 }
 
-.call{
+.call {
     width: 25%;
     float: left;
 }
 
-.call>p>span{
+.call>p>span {
     font-size: 20px;
 }
 
-.downoard{
+.downoard {
     width: 100%;
     height: 80px;
     overflow: hidden;
 }
 
-.search{
+.search {
     width: 50%;
     float: left;
 }
 
-.account{
+.account {
     width: 25%;
     float: left;
 }
 
-.products{
+.products {
     width: 15%;
     height: 52px;
     background-color: #00B3FF;
@@ -62,14 +64,14 @@ header>img{
     float: left;
 }
 
-.searchIn{
+.searchIn {
     width: 50%;
     height: 46px;
     padding-left: 5%;
     float: left;
 }
 
-.butSear{
+.butSear {
     width: 36px;
     height: 36px;
     background: transparent;
@@ -83,12 +85,12 @@ header>img{
     float: left;
 }
 
-.account>.acc{
+.account>.acc {
     width: 40px;
     float: right;
 }
 
-.account>p{
+.account>p {
     float: right;
     text-decoration: none;
     font-size: 12px;
@@ -96,18 +98,18 @@ header>img{
     display: block;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.filterDiv{
+.filterDiv {
     width: 100%;
     height: 10px;
     font-family: Montserrat-Light;
 }
 
-.filters{
+.filters {
     float: left;
     font-size: 11px;
     margin: 5px;
