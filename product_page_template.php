@@ -31,6 +31,7 @@
         <div class="porTumb">
         </div>
         <div class="mainImg">
+
             <img />
         </div>
     </div>
