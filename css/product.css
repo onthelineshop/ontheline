@@ -207,8 +207,20 @@ PRODUCT SPECIFICATION
     background-color: rgb(232, 232, 232);
 }
 
+.prInfTab:hover {
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+
 .selected {
     background-color: rgb(217, 217, 217);
+}
+
+.productTabs {
+    margin-left: 5%;
+    position: relative;
+    top: -5px;
+    width: 60%;
 }
 
 .laLine {
@@ -220,8 +232,58 @@ PRODUCT SPECIFICATION
     border-top: 5px solid rgb(217, 217, 217);
 }
 
+.productTabs>tr {
+    border-bottom: 1px solid black;
+}
 
+.specTd {
+    background: rgb(232, 232, 232);
+}
+
+.head {
+    font-family: Montserrat-Bold;
+    background: #fff;
+    text-align: left;
+    font-size: 1.5vh;
+}
 /*
 END
 PRODUCT SPECIFICATION
+*/
+
+/*
+START
+SUGGESTION
+*/
+
+.suggesView{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.also{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 5%;
+    background: rgb(232, 232, 232);
+    color:
+}
+
+.sugest{
+    widows: 70%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.sugest>img{
+    width: 15%;
+    margin: 0 5%;
+    float: left;
+}
+/*
+END
+SUGGESTION
 */

@@ -78,8 +78,8 @@
         <span class="laLine"></span>
         <table class="productTabs">
             <tr>
-                <td></td>
-                <td>
+                <td class="head"></td>
+                <td class="specTd">
                     <ul>
                         <li>Colour: White</li>
                     </ul>
@@ -87,7 +87,7 @@
             </tr>
             <tr>
                 <td class="head">Efficiency</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -104,7 +104,7 @@
             </tr>
             <tr>
                 <td class="head">Control</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -121,7 +121,7 @@
             </tr>
             <tr>
                 <td class="head">Programmes</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -138,7 +138,7 @@
             </tr>
             <tr>
                 <td class="head">Features</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -155,7 +155,7 @@
             </tr>
             <tr>
                 <td class="head">SensorIQ technology</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -172,7 +172,7 @@
             </tr>
             <tr>
                 <td class="head">Safety and durability</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -189,7 +189,7 @@
             </tr>
             <tr>
                 <td class="head">Technical data</td>
-                <td>
+                <td class="specTd">
                     <ul>
                         <li>Dryer load: 1-8 kg</li>
                         <li>IonTech technology</li>
@@ -206,7 +206,15 @@
             </tr>
         </table>
     </div>
-
+    <div class="suggesView">
+        <p class="also">Customers Who Viewed This Item Also Viewed</p>
+        <div class="sugest">
+            <img src="img/product/1.jpg" />
+            <img src="img/product/2.jpg" />
+            <img src="img/product/3.jpg" />
+            <img src="img/product/4.jpg" />
+        </div>
+    </div>
 </body>
 
 </html>
