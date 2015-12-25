@@ -3,70 +3,136 @@
 
 <head>
     <title>On the line</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/bootstrap.min.css" type="text/css" />
     <link href="css/bootstrap-theme.min.css" type="text/css" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+
 </head>
 
 <body>
-    <header>
-        <img src="img/head.png" />
-    </header>
-    <div class="downoard">
-        <div class="call">
-            <p>FREE CALL
-                <br/>
-                <span>0800 888 888</span>
-            </p>
-        </div>
-        <!-- Search sekcija  -->
-        <!-- Search sekcija  -->
+    <div class="container">
 
+        <div class="row">
+            <div class="col-md-12">
+                <!--NOTE Pocetak menija-->
+                <nav>
+                    <ul class="nav_bar">
 
+                        <!--NOTE Pocetak dropdown sekcije za ves masine i susare-->
 
+                        <li id="washdry"><a href="#">Washing machines &#38; Dryers</a>
+                            <div class="washdry_items">
+                                <div class="dropdown_col">
+                                    <ul class="dropdown_items">
+                                        <li>
+                                            <p><span>Washing machine</span></p>
+                                        </li>
+                                        <li><a href="#">Freestanding Washing Machines</a></li>
+                                        <li><a href="#">Integrated Washing Machines</a></li>
+                                        <li><a href="#">Best Buys</a></li>
+                                        <li><a href="#">Washing Machines Buying Guide</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown_col">
+                                    <ul class="dropdown_items">
+                                        <li>
+                                            <p><span>Tumble Dryers</span></p>
+                                        </li>
+                                        <li><a href="#">Condenser Tumble Dryers</a></li>
+                                        <li><a href="#">Vented Tumble Dryers</a></li>
+                                        <li><a href="#">Heat Pump Dryers</a></li>
+                                        <li><a href="#">Best Buys Small</a></li>
+                                        <li><a href="#">Tumble Dryers Buying Guide</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown_col">
+                                    <ul class="dropdown_items">
+                                        <li>
+                                            <p><span>Washer Dryers</span></p>
+                                        </li>
+                                        <li><a href="#">Freestanding Washer Dryers</a></li>
+                                        <li><a href="#">Integrated Washer Dryers</a></li>
+                                        <li><a href="#">Best Buys</a></li>
+                                        <li><a href="#">Washer Dryers Buying Guide</a></li>
+                                        <li><a href="#">Integrated Washer Dryers Buying Guide</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
 
-        <!-- Search sekcija  -->
-        <div class="search">
-            <form action="search.php" method="get">
-                <select name="type" class="products">
-                    <option value="all">All</option>
-                    <option value="wmd">Washing machines & Dryers</option>
-                    <option value="frf">Fridges & Freezers</option>
-                    <option value="dis">Dishwashers</option>
-                    <option value="coo">Cooking</option>
-                    <option value="bui">Built-in</option>
-                    <option value="sma">Small Appliances</option>
-                    <option value="sav">Sound & Vision</option>
-                    <option value="kit">Kitchens</option>
-                    <option value="acc">Accessories</option>
-                </select>
-                <input type="text" class="searchIn" name="term" placeholder="Search for products, brands or advice..." />
-                <button type="submit" class="butSear"></button>
-            </form>
-        </div>
-        <div class="account">
-            <img src="img/acc.png" class="acc" />
-            <p class="myAcc">MY ACCOUNT
-                <br/>
-                <a href="login.php">Login</a>
-                <span>|</span>
-                <a href="register.php">Register</a>
-            </p>
+                        <!--NOTE Pocetak dropdown sekcije za frizidere-->
+
+                        <li id="fridge"><a href="#">Fridges &#38; Freezers</a>
+                            <div class="fridge_items">
+                                <div class="dropdown_col">
+                                    <ul class="dropdown_items">
+                                        <li>
+                                            <p><span>Fridge</span></p>
+                                        </li>
+                                        <li><a href="#">Freestanding Washing Machines</a></li>
+                                        <li><a href="#">Integrated Washing Machines</a></li>
+                                        <li><a href="#">Best Buys</a></li>
+                                        <li><a href="#">Washing Machines Buying Guide</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown_col">
+                                    <ul class="dropdown_items">
+                                        <li>
+                                            <p><span>Fridge</span></p>
+                                        </li>
+                                        <li><a href="#">Condenser Tumble Dryers</a></li>
+                                        <li><a href="#">Vented Tumble Dryers</a></li>
+                                        <li><a href="#">Heat Pump Dryers</a></li>
+                                        <li><a href="#">Best Buys Small</a></li>
+                                        <li><a href="#">Tumble Dryers Buying Guide</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown_col">
+                                    <ul class="dropdown_items">
+                                        <li>
+                                            <p><span>Washer Dryers</span></p>
+                                        </li>
+                                        <li><a href="#">Freestanding Washer Dryers</a></li>
+                                        <li><a href="#">Integrated Washer Dryers</a></li>
+                                        <li><a href="#">Best Buys</a></li>
+                                        <li><a href="#">Washer Dryers Buying Guide</a></li>
+                                        <li><a href="#">Integrated Washer Dryers Buying Guide</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Dishwashers</a></li>
+                        <li><a href="#">Cooking</a></li>
+                        <li><a href="#">Built-in</a></li>
+                        <li><a href="#">Small Appliances</a></li>
+                        <li><a href="#">Sound &#38; Vision</a></li>
+                        <li><a href="#">Kitchens</a></li>
+                        <li><a href="#">Accessories</a></li>
+
+                    </ul>
+                </nav>
+
+                <!-- NOTE Kraj menija-->
+            </div>
         </div>
     </div>
-    <!-- Filter sekcija -->
 
-    <div class="filterDiv">
-        <p class="filters">Washing machines & Dryers</p>
-        <p class="filters">Fridges & Freezers</p>
-        <p class="filters">Dishwashers</p>
-        <p class="filters">Cooking</p>
-        <p class="filters">Built-in</p>
-        <p class="filters">Small Appliances</p>
-        <p class="filters">Sound & Vision</p>
-        <p class="filters">Kitchens</p>
-        <p class="filters">Accessories</p>
-    </div>
+
+
+
+    <!--
+   <script>
+    $(document).ready(function () {
+        $('.washdry').hover(
+            function () {
+                $('.dropdown_item1').slideDown(200);
+            }
+        );
+    });
+</script>
+-->
+
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/bootstrap.min.js" type="application/javascript"></script>

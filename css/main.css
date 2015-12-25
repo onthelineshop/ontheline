@@ -114,3 +114,101 @@ a {
     font-size: 11px;
     margin: 5px;
 }
+
+
+/* NOTE Navigacija i padajuci meni*/
+
+.nav_bar {}
+
+
+/* NOTE Gornja margina padajuceg menija  */
+
+nav {
+    width: 100%;
+    margin-top: 50px;
+    z-index: 999;
+}
+
+nav>ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul>li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+}
+
+#washdry:hover .washdry_items {
+    display: block;
+}
+
+#washdry:hover {
+    background: #eee;
+}
+
+.washdry_items {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+    padding: 0;
+    width: 800px;
+    height: 250px;
+    box-shadow: 1px 2px 10px #999;
+    display: none;
+    background: #eee;
+    z-index: -1;
+}
+
+.dropdown_col {
+    float: left;
+}
+
+.dropdown_items {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 0;
+    display: block;
+    overflow: none;
+}
+
+.dropdown_items>li {
+    list-style: none;
+    padding: 5px;
+}
+
+.dropdown_items>li>p>span {
+    font-family: Montserrat-Bold;
+    font-size: 14p;
+}
+
+#fridge:hover .fridge_items {
+    display: block;
+}
+
+#fridge:hover {
+    background: #eee;
+}
+
+.fridge_items {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -233px;
+    padding: 0;
+    width: 800px;
+    height: 250px;
+    box-shadow: 1px 2px 10px #999;
+    display: none;
+    background: #eee;
+    z-index: -1;
+}
