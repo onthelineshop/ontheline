@@ -3,6 +3,7 @@
 
 <head>
     <title>{{IME APARATA}}</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" />
     <!-- CSS for product pages -->
@@ -31,13 +32,14 @@
     </p>
     <div class="product">
         <div class="porTumb">
-            <img src="img/product/1.jpg" />
-            <img src="img/product/2.jpg" />
-            <img src="img/product/3.jpg" />
-            <img src="img/product/4.jpg" />
+            <img src="img/product/1.jpg" class="imgTumb"/>
+            <img src="img/product/5.jpg" class="videoTumb"/>
+            <img src="img/product/2.jpg" class="imgTumb"/>
+            <img src="img/product/3.jpg" class="imgTumb"/>
+            <img src="img/product/4.jpg" class="imgTumb"/>
         </div>
         <div class="mainImg">
-            <img src="img/product/1.jpg" />
+            <img src="img/product/1.jpg" class="img-responsive" id="mainImg"/>
             <div class="share">
                 <button class="compare">COMPARE</button>
                 <button class="share">SHARE</button>
@@ -96,7 +98,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -113,7 +115,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -130,7 +132,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -147,7 +149,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -164,7 +166,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -181,7 +183,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -198,7 +200,7 @@
                         <li>Drum volume: 120 l</li>
                         <li>Drum illumination with LED light</li>
                         <li>Porthole diameter: 35 cm</li>
-                        <li>Door opening angle: 180 °</li>
+                        <li>Door opening angle: 180&deg;</li>
                         <li>Reversible drum action</li>
                         <li>Direct discharge of condensate AutoDrain</li>
                     </ul>
@@ -206,6 +208,7 @@
             </tr>
         </table>
     </div>
+    <!--  SUGGESTIONS  -->
     <div class="suggesView">
         <p class="also">Customers Who Viewed This Item Also Viewed</p>
         <div class="sugest">
@@ -215,6 +218,11 @@
             <img src="img/product/4.jpg" />
         </div>
     </div>
+    <!--  jQuery  -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/multizoom.js"></script>
+    <script src="js/product.js" type="text/javascript"></script>
 </body>
 
 </html>
