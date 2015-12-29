@@ -285,6 +285,18 @@
         margin-top: 20px;
     }
 
+    .benefit_area_text {
+        height: 100px;
+        background: #00b8ad;
+        border-right: 2px dashed #fff;
+        color: #fff;
+    }
+
+    .benefit_area_text>h4 {
+        padding: 20px 0 0 10px;
+        color: #fff;
+    }
+
     .benefit_area {
         height: 100px;
         background: #00b8ad;
@@ -322,21 +334,39 @@
         margin: 0;
         padding: 0;
         height: 300px;
-        background: #eb164b;
-        cursor: pointer;
+        /*        background: #eb164b;*/
+        /*        cursor: pointer;*/
         -webkit-transition: .2s ease-out;
         transition: .2s ease-out;
+        overflow: hidden;
     }
 
     .discount_banner {
+        display: block;
+        height: 100%;
         background: #eb164b;
+        overflow: hidden;
+    }
+
+    .discount_banner_img {
+        position: absolute;
+        width: 200px;
+        right: 10px;
+        top: 35px;
+        opacity: 0.7;
     }
 
     .big_banner_init:hover {
         box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
     }
 
-    .big_banner_init>h1 {
+    .big_banner_style {
+        padding: 0;
+        margin: 0;
+    }
+
+    .big_banner_init>.big_banner_style>h1 {
+        margin: 0;
         font-family: "proxima-nova", sans-serif;
         font-weight: 700;
         font-size: 50px;
@@ -345,7 +375,7 @@
         line-height: 0.9em;
     }
 
-    .big_banner_init>p {
+    .big_banner_init>.big_banner_style>p {
         font-family: "proxima-nova", sans-serif;
         width: 200px;
         color: #fff;
@@ -353,16 +383,16 @@
     }
 
     .bestbuy_banner {
-        margin: 0;
-        padding: 0;
-        height: 300px;
+        display: block;
+        height: 100%;
         background: #551f79;
     }
 
     .link_indicator {
         position: absolute;
-        right: 65px;
-        bottom: 10px;
+        height: 20px;
+        right: 60px;
+        bottom: 20px;
         color: #fff;
     }
 
@@ -419,6 +449,122 @@
     }
 
     .sm_banner_1 {
-        height: 180px;
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
+
+    .sm_banner_2 {
+        padding: 0 10px 0 10px;
+        margin: 0;
+    }
+
+    .sm_banner_3 {
+        padding: 0 10px 0 10px;
+        margin: 0;
+    }
+
+    .sm_banner_4 {
+        padding: 0 0 0 10px;
+        margin: 0;
+    }
+
+    .sm_banner_init {
+        margin: 0;
+        padding: 0;
+        height: 190px;
+        cursor: pointer;
+        -webkit-transition: .2s ease-out;
+        transition: .2s ease-out;
+    }
+
+    .sm_banner_init:hover {
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .sm_banner_init:hover .arrow_init {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    .help_support_banner {
+        display: block;
+        height: 100%;
         background: #8a9297;
+    }
+
+    .help_support_banner>h4 {
+        margin: 0;
+        padding: 20px 0 0 20px;
+        color: #fff;
+    }
+
+    .help_support_banner>h1 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-weight: 700;
+        padding: 0 0 0 20px;
+    }
+
+    .help_banner_img {
+        position: absolute;
+        left: 10px;
+        top: 85px;
+        width: 160px;
+    }
+
+    .gift_card_banner {
+        display: block;
+        height: 100%;
+        background: #c30074;
+    }
+
+    .gift_card_banner>h2 {
+        color: #fff;
+        margin: 0;
+        padding: 20px 0 0 20px;
+        font-weight: 700;
+    }
+
+    .gift_card_banner>p {
+        font-family: "proxima-nova", sans-serif;
+        width: 200px;
+        color: #fff;
+        margin: 0;
+        padding: 10px 0 0 20px;
+    }
+
+    .newsletter_banner {
+        margin: 0;
+        padding: 0;
+        height: 190px;
+        background: #ffdd00;
+    }
+
+    .newsletter_banner>h3 {
+        color: #333;
+        margin: 0;
+        padding: 20px 0 0 20px;
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 700;
+    }
+
+    .newsletter_banner>p {
+        color: #333;
+        margin: 0;
+        padding: 5px 0 0 20px;
+        font-family: "proxima-nova", sans-serif;
+        line-height: 16px;
+    }
+
+    .facebook_banner {
+        margin: 0;
+        padding: 0;
+        background: #3b5998;
+    }
+
+    .sm_link_indicator {
+        bottom: 15px !important;
+        right: 50px !important;
     }
