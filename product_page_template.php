@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" />
     <!-- CSS for product pages -->
     <link rel="stylesheet" href="css/product.css" type="text/css" />
+
+    <!--  BX SLIDER STYLE  -->
+    <link rel="stylesheet" href="js/jquery.bxslider/jquery.bxslider.css" type="text/css" />
 </head>
 
 <body>
@@ -32,14 +35,19 @@
     </p>
     <div class="product">
         <div class="porTumb">
-            <img src="img/product/1.jpg" class="imgTumb"/>
-            <img src="img/product/5.jpg" class="videoTumb"/>
-            <img src="img/product/2.jpg" class="imgTumb"/>
-            <img src="img/product/3.jpg" class="imgTumb"/>
-            <img src="img/product/4.jpg" class="imgTumb"/>
+            <ul class="bxslider">
+                <li><img src="img/product/4.jpg" class="imgTumb" /></li>
+                <li><img src="img/product/5.jpg" class="videoTumb" href="img/Miley%20Cyrus%20-%20Wrecking%20Ball%20(Chatroulette%20Version).mp4" /></li>
+                <li><img src="img/product/1.jpg" class="imgTumb" /></li>
+                <li><img src="img/product/2.jpg" class="imgTumb" /></li>
+                <li><img src="img/product/3.jpg" class="imgTumb" /></li>
+                <li><img src="img/product/5.jpg" class="videoTumb" href="img/Miley%20Cyrus%20-%20Wrecking%20Ball%20(Chatroulette%20Version).mp4" /></li>
+                <li><img src="img/product/1.jpg" class="imgTumb" /></li>
+                <li><img src="img/product/2.jpg" class="imgTumb" /></li>
+            </ul>
         </div>
         <div class="mainImg">
-            <img src="img/product/1.jpg" class="img-responsive" id="mainImg"/>
+            <img src="" class="img-responsive" id="mainImg" />
             <div class="share">
                 <button class="compare">COMPARE</button>
                 <button class="share">SHARE</button>
@@ -83,7 +91,7 @@
                 <td class="head"></td>
                 <td class="specTd">
                     <ul>
-                        <li>Colour: White</li>
+                        <li>Colour: Blood Red</li>
                     </ul>
                 </td>
             </tr>
@@ -212,10 +220,10 @@
     <div class="suggesView">
         <p class="also">Customers Who Viewed This Item Also Viewed</p>
         <div class="sugest">
-            <img src="img/product/1.jpg" />
-            <img src="img/product/2.jpg" />
-            <img src="img/product/3.jpg" />
-            <img src="img/product/4.jpg" />
+            <div class="slide"><img src="img/product/1.jpg" /></div>
+            <div class="slide"><img src="img/product/2.jpg" /></div>
+            <div class="slide"><img src="img/product/3.jpg" /></div>
+            <div class="slide"><img src="img/product/4.jpg" /></div>
         </div>
     </div>
     <!--  jQuery  -->
@@ -223,6 +231,7 @@
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/multizoom.js"></script>
     <script src="js/product.js" type="text/javascript"></script>
+    <script src="js/jquery.bxslider/jquery.bxslider.min.js" type="text/javascript"></script>
 </body>
 
 </html>

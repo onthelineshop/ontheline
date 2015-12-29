@@ -76,6 +76,8 @@ MAIN PRODUCT PART
     overflow: hidden;
 }
 
+/*
+NOTES: BXSLIDER JE OBRISAO SVE OVO
 .porTumb>img {
     width: 90%;
     float: left;
@@ -83,6 +85,7 @@ MAIN PRODUCT PART
     margin-top: 10px;
     cursor: pointer;
 }
+*/
 
 .mainImg {
     width: 50%;
@@ -95,6 +98,56 @@ MAIN PRODUCT PART
     width: 100%;
     max-height: 650px;
 }
+
+.zoomtracker {
+    cursor: move !important;
+}
+
+.mainImg>video {
+    width: 100%;
+    margin-top: 30%;
+    max-height: 650px;
+}
+
+
+/* START SLIDER STYLE */
+
+ul.bxslider {
+    margin-left: -45% !important;
+}
+
+.porTumb>.bx-wrapper>.bx-viewport {
+    height: 400px !important;
+}
+
+.imgTumb, .videoTumb{
+    cursor: pointer;
+}
+
+.porTumb>.bx-wrapper>.bx-viewport {
+    height: 400px !important;
+}
+
+.porTumb>.bx-wrapper>.bx-controls>.bx-controls-direction>.bx-prev {
+    top: 4%;
+    left: 30%;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.porTumb>.bx-wrapper>.bx-controls>.bx-controls-direction>.bx-next {
+    top: 95%;
+    left: 30%;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.bx-pager {
+    display: none;
+}
+
+
+/* START SLIDER STYLE */
 
 .share {
     width: 80%;
@@ -247,23 +300,26 @@ PRODUCT SPECIFICATION
     text-align: left;
     font-size: 1.5vh;
 }
+
+
 /*
 END
 PRODUCT SPECIFICATION
 */
+
 
 /*
 START
 SUGGESTION
 */
 
-.suggesView{
+.suggesView {
     width: 100%;
     height: 500px;
     overflow: hidden;
 }
 
-.also{
+.also {
     display: block;
     width: 100%;
     height: 50px;
@@ -273,17 +329,19 @@ SUGGESTION
     color:
 }
 
-.sugest{
+.sugest {
     widows: 70%;
     height: 300px;
     overflow: hidden;
 }
 
-.sugest>img{
+.sugest>img {
     width: 15%;
     margin: 0 5%;
     float: left;
 }
+
+
 /*
 END
 SUGGESTION

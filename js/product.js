@@ -2,11 +2,18 @@
 
 jQuery(document).ready(function ($) {
     var image;
+
+    /*    INIT IMAGE ON CLICK    */
     $(".imgTumb").click(function () {
+        if (!$("#mainImg").length) {
+            console.log($("#mainImg").length);
+            $(".mainImg").prepend("<img src=\"img/product/1.jpg\" class=\"img-responsive\" id=\"mainImg\"/>");
+        }
+        if ($("#mainVideo").length) {
+            $("#mainVideo").remove();
+        }
         image = $(this).attr("src");
         $("#mainImg").attr("src", image);
-        console.log(image);
-        console.log("empty space");
         $('#mainImg').addimagezoom({ // single image zoom
             zoomrange: [3, 10],
             magnifiersize: [400, 400],
@@ -16,7 +23,44 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    $(".videoTumb").click(function (){
+    /*ZOOM ON INIT*/
+    image = $(".imgTumb").first().attr("src");
+    $("#mainImg").attr("src", image);
 
+    $('#mainImg').addimagezoom({ // single image zoom
+        zoomrange: [3, 10],
+        magnifiersize: [400, 400],
+        magnifierpos: 'right',
+        cursorshade: true,
+        largeimage: image //<-- No comma after last option!
+    });
+
+    //    VIDEO INIT
+    $(".videoTumb").click(function () {
+        if ($("#mainImg").length) {
+            $("#mainImg").remove();
+            $(".zoomtracker").remove();
+        }
+        var video = $(this).attr("href");
+        if (!$("#mainVideo").length) {
+            $(".mainImg").prepend("<video class=\"video\" id=\"mainVideo\" controls autoplay><source src=\"" + video + "\" type=\"video/mp4\"></video>");
+        }
+    });
+
+    /* SLIDER */
+    $(document).ready(function () {
+        $('.sugest').bxSlider({
+            slideWidth: 200,
+            minSlides: 2,
+            maxSlides: 5,
+            moveSlides: 2,
+            slideMargin: 10
+        });
+    });
+    $('.bxslider').bxSlider({
+        mode: 'vertical',
+        slideMargin: 5,
+            minSlides: 2,
+            maxSlides: 5
     });
 });
