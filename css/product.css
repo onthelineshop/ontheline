@@ -266,6 +266,10 @@ PRODUCT SPECIFICATION
     cursor: pointer;
 }
 
+.active{
+    background-color: rgb(217, 217, 217);
+}
+
 .selected {
     background-color: rgb(217, 217, 217);
 }
@@ -275,8 +279,12 @@ PRODUCT SPECIFICATION
     position: relative;
     top: -5px;
     width: 60%;
+    display: none;
 }
 
+.activePr{
+    display: table !important;
+}
 .laLine {
     display: block;
     width: 110%;
@@ -301,6 +309,12 @@ PRODUCT SPECIFICATION
     font-size: 1.5vh;
 }
 
+
+/* OVERVIEW */
+
+.overview{
+    display: none;
+}
 
 /*
 END
