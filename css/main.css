@@ -379,7 +379,7 @@
         font-family: "proxima-nova", sans-serif;
         width: 200px;
         color: #fff;
-        padding: 0 0 0 20px;
+        padding: 10px 0 0 20px;
     }
 
     .bestbuy_banner {
@@ -567,4 +567,134 @@
     .sm_link_indicator {
         bottom: 15px !important;
         right: 50px !important;
+    }
+    /* NOTE Newsletter input form */
+
+    .input_news {
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        margin: 1em;
+        max-width: 350px;
+        width: calc(100% - 2em);
+        vertical-align: top;
+    }
+
+    .input__field {
+        position: relative;
+        display: block;
+        float: right;
+        padding: 0.85em;
+        border: none;
+        border-radius: 0;
+        background: #f0f0f0;
+        color: #aaa;
+        font-family: "proxima-nova", sans-serif;
+        -webkit-appearance: none;
+        /* for box shadows to show on iOS */
+    }
+
+    .input__field:focus {
+        outline: none;
+    }
+
+    .input__label {
+        display: inline-block;
+        float: right;
+        padding: 0 10px;
+        color: #696969;
+        font-size: 11px;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .input__label-content {
+        position: relative;
+        top: -2px;
+        display: block;
+        margin: 0;
+        padding: 1.0em 0;
+        width: 100%;
+    }
+
+    .icon_news {
+        color: #ddd;
+        font-size: 145%;
+    }
+
+    .input--newsletter {
+        overflow: hidden;
+        background: #fff;
+    }
+
+    .input__field--newsletter {
+        width: 90%;
+        left: -25px;
+        margin-left: -10px;
+        background: transparent;
+        padding-left: 2.45em;
+        color: #6a7989;
+    }
+
+    .input__label--newsletter {
+        position: absolute;
+        width: 100%;
+        text-align: left;
+        pointer-events: none;
+        color: #D2D2D2;
+    }
+
+    .input__label-content--newsletter {
+        display: inline-block;
+        width: auto;
+        -webkit-transform: translate3d(-1.75em, 0, 0);
+        transform: translate3d(-1.75em, 0, 0);
+        -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .icon--newsletter {
+        display: inline-block;
+        margin-top: 0.9em;
+        -webkit-transform: translate3d(-2em, 0, 0);
+        transform: translate3d(-2em, 0, 0);
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: transform 0.3s;
+    }
+
+    .butNewsletter {
+        position: absolute;
+        right: 0px;
+        margin: 0;
+        padding: 5px 10px;
+        height: 100%;
+        border: none;
+    }
+
+    .input__field--newsletter:focus + .input__label--newsletter .input__label-content--newsletter,
+    .input--filled .input__label-content--newsletter {
+        opacity: 0;
+        -webkit-transform: translate3d(100px, 0, 0);
+        transform: translate3d(100px, 0, 0);
+    }
+
+    .input__label-content--newsletter,
+    .icon--newsletter,
+    .input__field--newsletter:focus + .input__label--newsletter .input__label-content--newsletter,
+    .input--filled .input__label-content--newsletter {
+        -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+        transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    }
+
+    .input__field--newsletter:focus + .input__label--newsletter .icon--newsletter,
+    .input--filled .icon--newsletter {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
