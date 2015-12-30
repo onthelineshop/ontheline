@@ -8,22 +8,13 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--  BRAND SLIDER  -->
+    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" type="text/css" />
 
 </head>
 
 <body>
-    <!--NOTE facebook-->
-    <div id="fb-root"></div>
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <div class="container">
 
@@ -268,9 +259,9 @@
                 <div class="sm_banner_init">
                     <a class="gift_card_banner" href="#">
                         <h2>GIFT CARD</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, nam.</p>
+                        <p>Each friend making a purchase over 100 with your code will get a free design gift and you'll earn 10 as credit.</p>
                         <div class="link_indicator sm_link_indicator">
-                            <span>ASK NOW</span>
+                            <span>LEARN MORE</span>
                             <div class="arrow_init">
                                 <div class="arrow_indicator"></div>
                             </div>
@@ -293,57 +284,35 @@
                         <button type="submit" value="newsletter" class="butNewsletter"><i class="glyphicon glyphicon-chevron-right"></i></button>
                     </form>
 
-
-
                 </div>
             </div>
             <div class="col-md-2 sm_banner_4">
                 <div class="facebook_banner sm_banner_init">
-                    <div class="fb-like" data-href="https://www.facebook.com/gorenjestudio" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+
+
                 </div>
             </div>
 
         </div>
         <!-- NOTE HTML Kraj male banner sekcije -->
 
-        <?php
+        <!-- NOTE HTML Pocetak brend sekcije -->
 
-        function facebook_count($url){
-
-    // Query in FQL
-    $fql  = "SELECT share_count, like_count, comment_count ";
-    $fql .= " FROM link_stat WHERE url = '$url'";
-
-    $fqlURL = "https://api.facebook.com/method/fql.query?format=json&query=" . urlencode($fql);
-
-    // Facebook Response is in JSON
-    $response = file_get_contents($fqlURL);
-    return json_decode($response);
-
-}
-
-$fb = facebook_count('https://www.facebook.com/digital.inspiration');
-
-// facebook share count
-echo $fb[0]->share_count;
-
-// facebook like count
-echo $fb[0]->like_count;
-
-// facebook comment count
-echo $fb[0]->comment_count;
-
-RELATED
+        <div class="row content_margine">
+            <div class="col-md-12 brand_section">
+                <h4>Choose brand and find your perfect product</h4>
+                <div id="brand_section_slider" class="brand_section_slider">
+                    <div class="brand_img"><img src="img/brands/beko.png" /></div>
+                    <div class="brand_img"><img src="img/brands/gorenje.png" /></div>
+                    <div class="brand_img"><img src="img/brands/bosch.png" /></div>
+                    <div class="brand_img"><img src="img/brands/samsung.png" /></div>
+                    <div class="brand_img"><img src="img/brands/indesit.png" /></div>
+                </div>
 
 
+            </div>
 
-
-
-
-
-
-        ?>
-
+        </div>
 
     </div>
     <!-- NOTE Kraj container-->
@@ -370,7 +339,6 @@ RELATED
 </script>
 -->
     <script src="js/bootstrap.min.js" type="application/javascript"></script>
-    <script src="main.js"></script>
     <!--    <script src="js/npm.js" type="application/javascript"></script>-->
 
     <!-- NOTE JS Pocetak Proxima nova font -->
@@ -385,6 +353,7 @@ RELATED
     <!-- NOTE JS Kraj Proxima nova font -->
 
     <!-- NOTE JS Pocetak Newsletter -->
+
     <script src="js/classie.js"></script>
     <script>
         (function () {
@@ -421,7 +390,36 @@ RELATED
             }
         })();
     </script>
+
     <!-- NOTE JS Kraj Newsletter -->
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+    <!--    <script src="main.js"></script>-->
+
+    <!-- NOTE JS Brand slider -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var owl = $("#brand_section_slider");
+
+            owl.owlCarousel({
+                items: 4, //10 items above 1000px browser width
+                itemsDesktop: [1000, 5], //5 items between 1000px and 901px
+                itemsDesktopSmall: [900, 3], // betweem 900px and 601px
+                itemsTablet: [600, 2], //2 items between 600 and 0
+                itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+            });
+
+            // Custom Navigation Events
+            $(".next").click(function () {
+                owl.trigger('owl.next');
+            })
+            $(".prev").click(function () {
+                owl.trigger('owl.prev');
+            })
+        });
+    </script>
 
 </body>
 

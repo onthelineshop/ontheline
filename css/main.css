@@ -471,7 +471,7 @@
     .sm_banner_init {
         margin: 0;
         padding: 0;
-        height: 190px;
+        height: 220px;
         cursor: pointer;
         -webkit-transition: .2s ease-out;
         transition: .2s ease-out;
@@ -511,7 +511,7 @@
         position: absolute;
         left: 10px;
         top: 85px;
-        width: 160px;
+        width: 205px;
     }
 
     .gift_card_banner {
@@ -538,14 +538,14 @@
     .newsletter_banner {
         margin: 0;
         padding: 0;
-        height: 190px;
+        height: 220px;
         background: #ffdd00;
     }
 
     .newsletter_banner>h3 {
         color: #333;
         margin: 0;
-        padding: 20px 0 0 20px;
+        padding: 30px 0 0 20px;
         font-family: "proxima-nova", sans-serif;
         font-weight: 700;
     }
@@ -575,6 +575,7 @@
         z-index: 1;
         display: inline-block;
         margin: 1em;
+        margin-top: 20px;
         max-width: 350px;
         width: calc(100% - 2em);
         vertical-align: top;
@@ -697,4 +698,26 @@
     .input--filled .icon--newsletter {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
+    }
+    /* NOTE css Brend sekcija */
+
+    .brand_section {
+        height: 200px;
+        background: #eee;
+        text-align: center;
+    }
+
+    .brand_section>h4 {
+        padding-top: 10px;
+    }
+
+    .brand_section_slider {
+        height: 100px;
+        background: none !important;
+        box-shadow: none;
+    }
+
+    .brand_img {
+        height: 100%;
+        padding: 30px;
     }
