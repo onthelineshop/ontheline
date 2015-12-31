@@ -5,53 +5,58 @@
     <title>On the line</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header_search.css" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />-->
 
 </head>
 
 <body>
-    <div class="container">
+    <!-- HOTE Pocetak header sekcije -->
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-md-12"><img src="img/head.png" /></div>
 
-        <div class="row">
-            <div class="logo col-md-12"><img src="img/head.png" /></div>
+                <!-- HOTE Pocetak telefon sekcije -->
 
-            <div class="call col-md-2">
-                <p>FREE CALL</p>
-                <p><span>0800 888 888</span></p>
+                <div class="free_call col-md-2">
+                    <p>FREE CALL</p>
+                    <p><span>0800 888 888</span></p>
+                </div>
 
-            </div>
+                <!-- HOTE Pocetak main search -->
 
-            <div class="col-md-8 search">
-                <form class="search_bar large" action="search.php" method="get">
-                    <div class="search_dropdown" style="width: 16px;">
-                        <span>All</span>
-                        <ul>
-                            <li class="selected">All</li>
-                            <li>Washing machines &#38; Dryers</li>
-                            <li>Fridges &#38; Freezers</li>
-                            <li>Dishwashers</li>
-                            <li>Cooking</li>
-                            <li>Built-in</li>
-                            <li>Small Appliances</li>
-                            <li>Sound &#38; Vision</li>
-                            <li>Kitchens</li>
-                            <li>Accessories</li>
-                        </ul>
-                    </div>
-                    <input type="text" class="searchIn" name="term" placeholder="Search for products, brands or advice..." />
+                <div class="col-md-8 search">
+                    <form class="search_bar large" action="search.php" method="get">
+                        <div class="search_dropdown" style="width: 16px;">
+                            <span>All</span>
+                            <ul>
+                                <li class="selected">All</li>
+                                <li>Washing machines &#38; Dryers</li>
+                                <li>Fridges &#38; Freezers</li>
+                                <li>Dishwashers</li>
+                                <li>Cooking</li>
+                                <li>Built-in</li>
+                                <li>Small Appliances</li>
+                                <li>Sound &#38; Vision</li>
+                                <li>Kitchens</li>
+                                <li>Accessories</li>
+                            </ul>
+                        </div>
+                        <input type="text" class="searchIn" name="term" placeholder="Search for products, brands or advice..." />
 
-                    <button type="submit" value="Search" class="butSear">Search</button>
-                </form>
-            </div>
+                        <button type="submit" value="Search" class="butSearch">Search</button>
+                    </form>
+                </div>
 
-            <div class="account col-md-2">
-                <img src="img/acc.png" class="acc" />
-                <p class="myacc">MY ACCOUNT
-                    <br/>
-                    <a href="login.php">Login</a>
-                    <span>|</span>
-                    <a href="register.php">Register</a>
-                </p>
+                <div class="account col-md-2">
+                    <img src="img/acc.png" class="acc" />
+                    <p class="myacc">MY ACCOUNT
+                        <br/>
+                        <a href="login.php">Login</a>
+                        <span>|</span>
+                        <a href="register.php">Register</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
