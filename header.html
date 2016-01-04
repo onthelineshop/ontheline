@@ -5,7 +5,6 @@
     <title>On the line</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header_search.css" type="text/css" />
-    <!--    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />-->
 
 </head>
 
@@ -13,19 +12,29 @@
     <!-- HOTE Pocetak header sekcije -->
     <div class="container-fluid header">
         <div class="container">
+
+            <!-- NOTE LOGO section -->
+
             <div class="row">
-                <div class="logo col-md-12"><img src="img/head.png" /></div>
+                <div class="col-md-12">
+                    <div class="logo"><img src="img/head.png" /></div>
+                </div>
+            </div>
+
+            <div class="row">
 
                 <!-- HOTE Pocetak telefon sekcije -->
 
-                <div class="free_call col-md-2">
-                    <p>FREE CALL</p>
-                    <p><span>0800 888 888</span></p>
+                <div class="col-md-2">
+                    <div class="free_call">
+                        <p>FREE CALL</p>
+                        <p><span>0800 888 888</span></p>
+                    </div>
                 </div>
 
                 <!-- HOTE Pocetak main search -->
 
-                <div class="col-md-8 search">
+                <div class="col-md-8">
                     <form class="search_bar large" action="search.php" method="get">
                         <div class="search_dropdown" style="width: 16px;">
                             <span>All</span>
@@ -42,7 +51,7 @@
                                 <li>Accessories</li>
                             </ul>
                         </div>
-                        <input type="text" class="searchIn" name="term" placeholder="Search for products, brands or advice..." />
+                        <input type="text" class="searchIn" name="term" placeholder="Search for products, brands or advice..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search for products, brands or advice...'" />
 
                         <button type="submit" value="Search" class="butSearch">Search</button>
                     </form>
@@ -58,11 +67,23 @@
                     </p>
                 </div>
             </div>
+
         </div>
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- NOTE JS Senka za search bar -->
+    <script>
+        $(document).ready(function () {
+            $("input").focus(function () {
+                $(".search_bar").addClass("search_bar_shadow");
+            });
+            $("input").blur(function () {
+                $(".search_bar").removeClass("search_bar_shadow");
+            });
+        });
+    </script>
 
     <!--    <script src="js/npm.js" type="application/javascript"></script>-->
 </body>

@@ -18,122 +18,141 @@
     <?php
         include("header.html");
     ?>
-        <div class="container">
+        <div class="container-fluid meni-color">
+            <div class="container">
 
-            <!--NOTE Pocetak menija-->
+                <!--NOTE Pocetak menija-->
 
-            <div class="row">
-                <nav>
-                    <ul class="nav_bar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav>
+                            <ul class="nav_bar">
 
-                        <!--NOTE Pocetak dropdown sekcije za ves masine i susare-->
+                                <!--NOTE Pocetak dropdown sekcije za ves masine i susare-->
 
-                        <li id="washdry"><a href="#">Washing machines &#38; Dryers</a>
-                            <div class="washdry_items">
-                                <div class="dropdown_col">
-                                    <ul class="dropdown_items">
-                                        <li>
-                                            <p><span>Washing machine</span></p>
-                                        </li>
-                                        <li><a href="#">Freestanding Washing Machines</a></li>
-                                        <li><a href="#">Integrated Washing Machines</a></li>
-                                        <li><a href="#">Best Buys</a></li>
-                                        <li><a href="#">Washing Machines Buying Guide</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown_col">
-                                    <ul class="dropdown_items">
-                                        <li>
-                                            <p><span>Tumble Dryers</span></p>
-                                        </li>
-                                        <li><a href="#">Condenser Tumble Dryers</a></li>
-                                        <li><a href="#">Vented Tumble Dryers</a></li>
-                                        <li><a href="#">Heat Pump Dryers</a></li>
-                                        <li><a href="#">Best Buys Small</a></li>
-                                        <li><a href="#">Tumble Dryers Buying Guide</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown_col">
-                                    <ul class="dropdown_items">
-                                        <li>
-                                            <p><span>Washer Dryers</span></p>
-                                        </li>
-                                        <li><a href="#">Freestanding Washer Dryers</a></li>
-                                        <li><a href="#">Integrated Washer Dryers</a></li>
-                                        <li><a href="#">Best Buys</a></li>
-                                        <li><a href="#">Washer Dryers Buying Guide</a></li>
-                                        <li><a href="#">Integrated Washer Dryers Buying Guide</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+                                <li id="washdry"><a href="#">Washing machines &#38; Dryers</a>
+                                    <div class="washdry_items">
+                                        <div class="dropdown_col">
+                                            <ul class="dropdown_items">
+                                                <li><img src="img/icons/wm.png" alt="wm"></li>
+                                                <li>
+                                                    <p><span>Washing machine</span></p>
+                                                </li>
+                                                <li><a href="#">Freestanding Washing Machines</a></li>
+                                                <li><a href="#">Integrated Washing Machines</a></li>
+                                                <li><a href="#">Best Buys</a></li>
+                                                <li><a href="#">Washing Machines Buying Guide</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown_col">
+                                            <ul class="dropdown_items">
+                                                <li><img src="img/icons/dry.png" alt="dry"></li>
+                                                <li>
+                                                    <p><span>Tumble Dryers</span></p>
+                                                </li>
+                                                <li><a href="#">Condenser Tumble Dryers</a></li>
+                                                <li><a href="#">Vented Tumble Dryers</a></li>
+                                                <li><a href="#">Heat Pump Dryers</a></li>
+                                                <li><a href="#">Best Buys Small</a></li>
+                                                <li><a href="#">Tumble Dryers Buying Guide</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown_col">
+                                            <ul class="dropdown_items">
+                                                <li><img src="img/icons/wd.png" alt="wd"></li>
+                                                <li>
+                                                    <p><span>Washer Dryers</span></p>
+                                                </li>
+                                                <li><a href="#">Freestanding Washer Dryers</a></li>
+                                                <li><a href="#">Integrated Washer Dryers</a></li>
+                                                <li><a href="#">Best Buys</a></li>
+                                                <li><a href="#">Washer Dryers Buying Guide</a></li>
+                                                <li><a href="#">Integrated Washer Dryers Buying Guide</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
 
-                        <!--NOTE Pocetak dropdown sekcije za frizidere-->
+                                <!--NOTE Pocetak dropdown sekcije za frizidere-->
 
-                        <li id="fridge"><a href="#">Fridges &#38; Freezers</a>
-                            <div class="fridge_items">
-                                <div class="dropdown_col">
-                                    <ul class="dropdown_items">
-                                        <li>
-                                            <p><span>Fridge</span></p>
-                                        </li>
-                                        <li><a href="#">Freestanding Washing Machines</a></li>
-                                        <li><a href="#">Integrated Washing Machines</a></li>
-                                        <li><a href="#">Best Buys</a></li>
-                                        <li><a href="#">Washing Machines Buying Guide</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown_col">
-                                    <ul class="dropdown_items">
-                                        <li>
-                                            <p><span>Fridge</span></p>
-                                        </li>
-                                        <li><a href="#">Condenser Tumble Dryers</a></li>
-                                        <li><a href="#">Vented Tumble Dryers</a></li>
-                                        <li><a href="#">Heat Pump Dryers</a></li>
-                                        <li><a href="#">Best Buys Small</a></li>
-                                        <li><a href="#">Tumble Dryers Buying Guide</a></li>
-                                    </ul>
-                                </div>
-                                <div class="dropdown_col">
-                                    <ul class="dropdown_items">
-                                        <li>
-                                            <p><span>Washer Dryers</span></p>
-                                        </li>
-                                        <li><a href="#">Freestanding Washer Dryers</a></li>
-                                        <li><a href="#">Integrated Washer Dryers</a></li>
-                                        <li><a href="#">Best Buys</a></li>
-                                        <li><a href="#">Washer Dryers Buying Guide</a></li>
-                                        <li><a href="#">Integrated Washer Dryers Buying Guide</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="#">Dishwashers</a></li>
-                        <li><a href="#">Cooking</a></li>
-                        <li><a href="#">Built-in</a></li>
-                        <li><a href="#">Small Appliances</a></li>
-                        <li><a href="#">Sound &#38; Vision</a></li>
-                        <li><a href="#">Kitchens</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <!-- TODO Napraviti dropdown meni za sve kategorije-->
+                                <li id="fridge"><a href="#">Fridges &#38; Freezers</a>
+                                    <div class="fridge_items">
+                                        <div class="dropdown_col">
+                                            <ul class="dropdown_items">
+                                                <li>
+                                                    <p><span>Fridge</span></p>
+                                                </li>
+                                                <li><a href="#">Freestanding Washing Machines</a></li>
+                                                <li><a href="#">Integrated Washing Machines</a></li>
+                                                <li><a href="#">Best Buys</a></li>
+                                                <li><a href="#">Washing Machines Buying Guide</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown_col">
+                                            <ul class="dropdown_items">
+                                                <li>
+                                                    <p><span>Fridge</span></p>
+                                                </li>
+                                                <li><a href="#">Condenser Tumble Dryers</a></li>
+                                                <li><a href="#">Vented Tumble Dryers</a></li>
+                                                <li><a href="#">Heat Pump Dryers</a></li>
+                                                <li><a href="#">Best Buys Small</a></li>
+                                                <li><a href="#">Tumble Dryers Buying Guide</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dropdown_col">
+                                            <ul class="dropdown_items">
+                                                <li>
+                                                    <p><span>Washer Dryers</span></p>
+                                                </li>
+                                                <li><a href="#">Freestanding Washer Dryers</a></li>
+                                                <li><a href="#">Integrated Washer Dryers</a></li>
+                                                <li><a href="#">Best Buys</a></li>
+                                                <li><a href="#">Washer Dryers Buying Guide</a></li>
+                                                <li><a href="#">Integrated Washer Dryers Buying Guide</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">Dishwashers</a></li>
+                                <li><a href="#">Cooking</a></li>
+                                <li><a href="#">Built-in</a></li>
+                                <li><a href="#">Small Appliances</a></li>
+                                <li><a href="#">Sound &#38; Vision</a></li>
+                                <li><a href="#">Kitchens</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <!-- TODO Napraviti dropdown meni za sve kategorije-->
 
-                    </ul>
-                </nav>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
-            <!-- NOTE Kraj menija-->
+        </div>
+        <!-- NOTE Kraj menija-->
 
 
 
+        <div class="container site_content">
 
             <!-- NOTE Pocetak smart search-->
+
             <div class="row ">
                 <div class="smart_search">
-                    <h2>CLICK &#38; SIMPLIFY YOUR SHOPPING</h2>
+                    <h2>CLICK &#38; SIMPLIFY YOUR SHOPPING</h2><i class="glyphicon glyphicon-chevron-down smart_search_icon"></i>
                 </div>
                 <div class="clearfix"></div>
 
-                <div class="search_slider"></div>
+                <div class="col-md-12 search_slider">
+                    <div class="search_slider_main">
+                        <div class="smart_search_wm"></div>
+
+                    </div>
+                    <div class="search_slider_wm"></div>
+
+
+
+                </div>
             </div>
             <!-- NOTE Kraj smart search-->
 
@@ -385,9 +404,26 @@
 
         <!-- NOTE JS toggle za smart search-->
         <script>
+            var count = 0;
+            var div = 0;
+
             $(function () {
                 $(".smart_search").click(function () {
+                    count++;
+                    console.log(count);
                     $(".search_slider").slideToggle();
+                    $(".smart_search_icon").toggleClass("smart_search_icon_rotate");
+
+                    div = count % 2;
+                    console.log(div);
+                    if (div == 0) {
+                        $(".search_slider_wm").removeClass("smart_transform");
+                    }
+
+                });
+
+                $(".smart_search_wm").click(function () {
+                    $(".search_slider_wm").addClass("smart_transform");
                 });
             });
         </script>
@@ -474,6 +510,7 @@
                 })
             });
         </script>
+
 
 </body>
 
