@@ -227,6 +227,7 @@
                 </tr>
             </table>
         </div>
+        <!-- TODO: COULD ALSO BUY WITH PRODUCTS (CABLES, CONNECTORS etc)   -->
         <!--  SUGGESTIONS  -->
         <div class="suggesView">
             <p class="also">Customers Who Viewed This Item Also Viewed</p>
@@ -237,6 +238,7 @@
                 <div class="slide"><img src="img/product/4.jpg" /></div>
             </div>
         </div>
+        <!-- TODO: SIMILAR PRODUCTS  -->
         <!--  jQuery  -->
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
