@@ -75,32 +75,40 @@ jQuery(document).ready(function ($) {
             if ($(".activePr").length) {
                 $(".activePr").removeClass("activePr");
             }
-                $(".productTabs").addClass("activePr");
-                break;
+            $(".productTabs").addClass("activePr");
+            break;
         case "OV":
             if ($(".activePr").length) {
                 $(".activePr").removeClass("activePr");
             }
-                $(".overview").addClass("activePr");
-                break;
+            $(".overview").addClass("activePr");
+            break;
         case "RV":
             if ($(".activePr").length) {
                 $(".activePr").removeClass("activePr");
             }
-                $(".review").addClass("activePr");
-                break;
+            $(".review").addClass("activePr");
+            break;
         case "FQ":
             if ($(".activePr").length) {
                 $(".activePr").removeClass("activePr");
             }
-                $(".faq").addClass("activePr");
-                break;
+            $(".faq").addClass("activePr");
+            break;
         case "PF":
             if ($(".activePr").length) {
                 $(".activePr").removeClass("activePr");
             }
-                $(".payon").addClass("activePr");
-                break;
+            $(".payon").addClass("activePr");
+            break;
         }
+    });
+/*    LIKES COUNT  */
+    var likesAPI = "https://api.facebook.com/method/fql.query?query=select%20like_count%20from%20link_stat%20where%20url=%27https://www.facebook.com/FrajniBelgrade%27&format=json";
+    $.getJSON(likesAPI, function(data){
+        var name = data[0];
+        console.log(data);
+        console.log(name);
+        $(".fbLikes>a").append("<span class=\"fbCount\">"+name["like_count"]+"</span>");
     });
 });

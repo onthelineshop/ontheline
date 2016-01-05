@@ -238,6 +238,10 @@
                 <div class="slide"><img src="img/product/4.jpg" /></div>
             </div>
         </div>
+        <div class="fbLikes">
+            <a href="https://www.facebook.com/FrajniBelgrade">
+            </a>
+        </div>
         <!-- TODO: SIMILAR PRODUCTS  -->
         <!--  jQuery  -->
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -245,6 +249,7 @@
         <script type="text/javascript" src="js/multizoom.js"></script>
         <script src="js/product.js" type="text/javascript"></script>
         <script src="js/jquery.bxslider/jquery.bxslider.min.js" type="text/javascript"></script>
+
 </body>
 
 </html>
