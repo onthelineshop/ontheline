@@ -360,8 +360,8 @@ nav>ul>li>a {
     height: 300px;
     /*        background: #eb164b;*/
     /*        cursor: pointer;*/
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
     overflow: hidden;
 }
 
@@ -389,7 +389,7 @@ nav>ul>li>a {
 }
 
 .big_banner_init:hover {
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .big_banner_style {
@@ -505,12 +505,12 @@ nav>ul>li>a {
     padding: 0;
     height: 220px;
     cursor: pointer;
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
 }
 
 .sm_banner_init:hover {
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .sm_banner_init:hover .arrow_init {
@@ -594,6 +594,51 @@ nav>ul>li>a {
     margin: 0;
     padding: 0;
     background: #3b5998;
+}
+
+.facebook_banner>h4 {
+    font-family: "proxima-nova", sans-serif;
+    margin: 0;
+    padding: 20px 0 0 15px;
+    color: #fff;
+}
+
+.fb-logo {
+    margin-top: 5px;
+    width: 150px;
+    margin-left: 15px;
+}
+
+.like-icon {
+    position: absolute;
+    width: 65px;
+    bottom: 10px;
+    right: 10px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.fb-count {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.facebook_banner>span {
+    position: absolute;
+    top: 123px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #333;
+}
+
+.facebook_banner:hover .like-icon {
+    bottom: 15px;
 }
 
 .sm_link_indicator {

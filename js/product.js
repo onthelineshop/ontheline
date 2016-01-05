@@ -103,12 +103,5 @@ jQuery(document).ready(function ($) {
             break;
         }
     });
-/*    LIKES COUNT  */
-    var likesAPI = "https://api.facebook.com/method/fql.query?query=select%20like_count%20from%20link_stat%20where%20url=%27https://www.facebook.com/FrajniBelgrade%27&format=json";
-    $.getJSON(likesAPI, function(data){
-        var name = data[0];
-        console.log(data);
-        console.log(name);
-        $(".fbLikes>a").append("<span class=\"fbCount\">"+name["like_count"]+"</span>");
-    });
+
 });

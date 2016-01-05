@@ -276,7 +276,7 @@
                     <div class="sm_banner_init">
                         <a class="help_support_banner sm_banner_style" href="#">
                             <h4>NEED HELP?</h4>
-                            <h1>AKS MARIJA</h1>
+                            <h1>ASK MARIJA</h1>
                             <img class="help_banner_img" src="img/banners/help_banner.png" alt="help_banner">
 
                             <div class="link_indicator sm_link_indicator">
@@ -320,10 +320,16 @@
                     </div>
                 </div>
                 <div class="col-md-2 sm_banner_4">
-                    <div class="facebook_banner sm_banner_init">
+                    <a href="#">
+                        <div class="facebook_banner sm_banner_init">
+                            <h4>Join us on</h4>
+                            <img class="fb-logo" src="img/brands/facebook.png" alt="facebook">
+                            <div class="fb-count"></div> <span>people like us</span>
+                            <img class="like-icon" src="img/brands/thumbs-up.png" alt="">
 
 
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -350,6 +356,12 @@
                         <div class="brand_img">
                             <a href="#"><img src="img/brands/indesit.png" /></a>
                         </div>
+                        <div class="brand_img">
+                            <a href="#"><img src="img/brands/aeg.png" /></a>
+                        </div>
+                        <div class="brand_img">
+                            <a href="#"><img src="img/brands/miele.png" /></a>
+                        </div>
                     </div>
                 </div>
 
@@ -374,7 +386,6 @@
                 <div class="footer">
                     <div class="container">
                         <div class="row">
-
                             <div class="footer_content">
                                 <ul>
                                     <li><a href="#">Contact us</a><span> |</span></li>
@@ -387,18 +398,10 @@
                                 </ul>
                                 <p>ontheline.com &#169; 2015.</p>
                             </div>
-
-
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
-
-
         </div>
 
 
@@ -494,7 +497,7 @@
                 var owl = $("#brand_section_slider");
 
                 owl.owlCarousel({
-                    items: 4, //10 items above 1000px browser width
+                    items: 6, //10 items above 1000px browser width
                     itemsDesktop: [1000, 5], //5 items between 1000px and 901px
                     itemsDesktopSmall: [900, 3], // betweem 900px and 601px
                     itemsTablet: [600, 2], //2 items between 600 and 0
@@ -511,6 +514,15 @@
             });
         </script>
 
+
+        <script>
+            /*    LIKES COUNT  */
+            var likesAPI = "https://api.facebook.com/method/fql.query?query=select%20like_count%20from%20link_stat%20where%20url=%27https://www.facebook.com/gorenjestudio%27&format=json";
+            $.getJSON(likesAPI, function (data) {
+                var name = data[0];
+                $(".fb-count").append("<span class=\"fbCount\">" + name["like_count"] + "</span>");
+            });
+        </script>
 
 </body>
 
