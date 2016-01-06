@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
         $("#mainImg").attr("src", image);
         $('#mainImg').addimagezoom({ // single image zoom
             zoomrange: [3, 10],
-            magnifiersize: [400, 400],
+            magnifiersize: [460, 570],
             magnifierpos: 'right',
             cursorshade: true,
             largeimage: image //<-- No comma after last option!
@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
 
     $('#mainImg').addimagezoom({ // single image zoom
         zoomrange: [3, 10],
-        magnifiersize: [400, 400],
+        magnifiersize: [460, 570],
         magnifierpos: 'right',
         cursorshade: true,
         largeimage: image //<-- No comma after last option!

@@ -41,7 +41,7 @@ a {
 
 nav {
     width: 100%;
-    z-index: 999;
+    z-index: 99999 !important;
 }
 
 nav>ul {
@@ -90,7 +90,7 @@ nav>ul>li>a {
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
     display: none;
     background: #eee;
-    z-index: 99;
+    z-index: 99998;
 }
 
 .dropdown_col {
@@ -151,7 +151,7 @@ nav>ul>li>a {
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
     display: none;
     background: #eee;
-    z-index: 99;
+    z-index: 99998;
 }
 
 

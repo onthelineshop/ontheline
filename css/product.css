@@ -1,22 +1,9 @@
-@font-face {
-    font-family: Montserrat-Bold;
-    src: url('../fonts/Montserrat-Bold.otf');
-}
-
-@font-face {
-    font-family: Montserrat-Light;
-    src: url('../fonts/Montserrat-Light.otf');
-}
-
-@font-face {
-    font-family: Montserrat-Regular;
-    src: url('../fonts/Montserrat-Regular.otf');
-}
-
 body {
-    font-family: Montserrat-Regular;
+    font-family: "proxima-nova", sans-serif;
+    /*
     margin: auto;
     width: 60%;
+*/
 }
 
 
@@ -76,6 +63,7 @@ MAIN PRODUCT PART
     overflow: hidden;
 }
 
+
 /*
 NOTES: BXSLIDER JE OBRISAO SVE OVO
 .porTumb>img {
@@ -120,7 +108,8 @@ ul.bxslider {
     height: 400px !important;
 }
 
-.imgTumb, .videoTumb{
+.imgTumb,
+.videoTumb {
     cursor: pointer;
 }
 
@@ -132,6 +121,7 @@ ul.bxslider {
     top: 4%;
     left: 30%;
     -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
@@ -139,6 +129,7 @@ ul.bxslider {
     top: 95%;
     left: 30%;
     -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
@@ -149,7 +140,7 @@ ul.bxslider {
 
 /* START SLIDER STYLE */
 
-.share {
+.shareProd {
     width: 80%;
     margin: auto;
     margin-top: 10px;
@@ -163,78 +154,101 @@ ul.bxslider {
     width: 40%;
 }
 
-.compare {
+.compareProd {
     float: left;
 }
 
-.share {
+.shareProd {
     float: right;
 }
 
 .specPrac {
     width: 35%;
     height: 650px;
-    margin-top: 20px;
+    margin-top: 50px;
     float: left;
 }
 
 .price {
     margin-left: -5%;
+    margin-top: 30px;
 }
 
 .prodInfo {
-    font-family: Montserrat-Light;
+    font-family: "proxima-nova", sans-serif;
 }
 
-.new {
-    font-family: Montserrat-Bold;
+.prod-info-link {
+    color: #333;
+    text-decoration: underline !important;
+}
+
+.newPrice {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
     font-size: 55px;
     color: rgb(236, 22, 75);
 }
 
-.old {
-    padding: 2px;
+.oldPrice {
+    padding: 15px 0 0 15px;
 }
 
-.save {
-    padding: 2px;
+.savePrice {
+    padding: 0 0 15px 15px;
     color: rgb(236, 22, 75);
     font-size: 20px;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
 }
 
-.brand {
+.brandLogo {
     width: 30%;
     margin-left: 5%;
+    margin-top: 30px;
 }
 
-.name {
-    font-family: Montserrat-Bold;
+.nameProd {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
     margin-left: 5%;
 }
 
-.stock {
-    font-family: Montserrat-Bold;
-    width: 40%;
+.stockProd {
+    float: left;
+    font-weight: 700;
+    font-family: "proxima-nova", sans-serif;
+    margin-left: -15px;
+    width: 80px;
     height: 50px;
     background: #fff;
-    box-shadow: inset 0px 0px 0px 5px rgb(41, 172, 228);
+    box-shadow: inset 0px 0px 0px 3px #9BCB3C;
     text-align: center;
-    color: rgb(41, 172, 228);
+    color: #9BCB3C;
     padding-top: 15px;
-    float: left;
 }
 
-.addBasekt {
-    width: 50%;
-    height: 50px;
-    background: #fff;
-    box-shadow: inset 0px 0px 0px 5px rgb(41, 172, 228);
-    text-align: center;
-    color: rgb(41, 172, 228);
+.addBasket {
     float: left;
-    border: 0;
-    margin-left: 5%;
+    display: block;
+    color: #fff !important;
+    font-weight: 700;
+    margin-left: 10px;
+    padding: 15px;
+    width: 160px;
+    height: 50px;
+    background: #00B3FF;
+    text-transform: uppercase;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.addBasket:hover {
+    color: #00B3FF !important;
+    background: #fff;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -266,7 +280,7 @@ PRODUCT SPECIFICATION
     cursor: pointer;
 }
 
-.active{
+.active {
     background-color: rgb(217, 217, 217);
 }
 
@@ -282,9 +296,10 @@ PRODUCT SPECIFICATION
     display: none;
 }
 
-.activePr{
+.activePr {
     display: table !important;
 }
+
 .laLine {
     display: block;
     width: 110%;
@@ -312,9 +327,10 @@ PRODUCT SPECIFICATION
 
 /* OVERVIEW */
 
-.overview{
+.overview {
     display: none;
 }
+
 
 /*
 END
@@ -361,7 +377,7 @@ END
 SUGGESTION
 */
 
-.fbLikes>a{
+.fbLikes>a {
     background-color: blue;
     display: block;
     width: 100px;
