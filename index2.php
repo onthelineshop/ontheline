@@ -499,7 +499,7 @@
         <!-- NOTE HTML Pocetak footer sekcije -->
         <div class="container-fluid content_margine">
             <div class="row">
-                <div class="footer">
+                <div class="col-md-12 footer">
                     <div class="container">
                         <div class="row">
                             <div class="footer_content">
@@ -512,11 +512,14 @@
                                     <li><a href="#">Terms and conditions</a><span> |</span></li>
                                     <li><a href="#">Corporate</a></li>
                                 </ul>
-                                <span>ontheline.com &#169; 2015.</span>
+
                             </div>
                         </div>
                     </div>
+                    <span class="footer_text_small">ontheline.com &#169; 2015.</span>
                 </div>
+
+
             </div>
         </div>
 
