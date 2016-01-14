@@ -191,7 +191,7 @@ nav>ul>li>a {
 
 .smart_search_icon {
     position: absolute;
-    top: 40px;
+    top: 20px;
     right: 20px;
     color: #fff;
     font-size: 170%;
@@ -246,12 +246,26 @@ nav>ul>li>a {
     transform: translateX(0%);
 }
 
-.smart_search_wm {
+
+/*
+.smart_search {
     position: absolute;
     margin: 20px;
     width: 100px;
     height: 100px;
     background: #00B3FF;
+}
+*/
+
+.smart_search_items {
+    display: inline;
+    float: left;
+    width: 14%;
+    padding: 2% 0 0 2%;
+}
+
+.smart_search_items>img {
+    width: 100%;
 }
 
 
