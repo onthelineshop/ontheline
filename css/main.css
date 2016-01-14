@@ -82,8 +82,12 @@ nav>ul>li>a {
 
 .washdry_items {
     position: absolute;
+    top: 50px;
+    left: 0;
+/*
     margin-top: 14px;
-    margin-left: -25px;
+ margin-left: -25px;
+*/
     padding: 0;
     width: 1170px;
     height: 270px;
@@ -121,8 +125,9 @@ nav>ul>li>a {
 }
 
 .dropdown_items>li>p>span {
-    font-family: Montserrat-Bold;
+    font-family: "proxima-nova", sans-serif;
     font-size: 14px;
+    font-weight: 700;
 }
 
 .li_float {
@@ -143,8 +148,8 @@ nav>ul>li>a {
 
 .fridge_items {
     position: absolute;
-    margin-top: 14px;
-    margin-left: -243px;
+    top: 50px;
+    left: 0;
     padding: 0;
     width: 1170px;
     height: 270px;
@@ -163,6 +168,20 @@ nav>ul>li>a {
     }
     nav>ul>li>a {
         font-size: 13px;
+    }
+    .washdry_items {
+        width: 970px;
+        height: 270px;
+    }
+    .fridge_items {
+        width: 970px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .menu-main {
+        display: none;
     }
 }
 

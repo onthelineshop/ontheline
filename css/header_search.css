@@ -235,7 +235,7 @@ a {
     float: right;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .header {
         display: none;
     }
