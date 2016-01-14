@@ -186,6 +186,29 @@ nav>ul>li>a {
 }
 
 
+/* NOTE CSS Responsive slide menu */
+
+.slide_menu {}
+
+.slide_menu_item {
+    position: relative;
+    height: 50px;
+    background: #eee;
+    padding: 15px;
+    border-top: 1px solid #aaa;
+}
+
+.slide_menu_icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.slide_menu_item>span {
+    font-family: "proxima-nova", sans-serif;
+}
+
+
 /* NOTE Smart search*/
 
 .smart_search {
@@ -331,11 +354,20 @@ a.smart_search_items {
         height: 400px;
         width: 970px;
     }
+    .smart_search_items::before {
+        font-size: 12px;
+        padding: 3%;
+        padding-top: 40%;
+    }
 }
 
 @media screen and (max-width: 991px) {
     .text-smart-filter {
         padding-left: 13%;
+    }
+    .search_slider {
+        height: 400px;
+        width: 750px;
     }
 }
 
@@ -801,6 +833,8 @@ a.smart_search_items {
     padding: 0;
     background: #3b5998;
     height: 160px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
 
 .facebook_banner>h4 {
@@ -842,6 +876,10 @@ a.smart_search_items {
     margin-left: 15px;
     font-size: 12px;
     color: #333;
+}
+
+.facebook_banner:hover {
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .facebook_banner:hover .like-icon {
@@ -894,6 +932,13 @@ a.smart_search_items {
     }
     .loyalty_card_banner>img {
         width: 110px;
+    }
+    .sm_banner_5 {
+        padding: 0 0 20px 0;
+        margin: 0;
+    }
+    .like-icon {
+        margin-bottom: 10px;
     }
 }
 

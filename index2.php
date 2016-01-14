@@ -132,6 +132,19 @@
         </div>
         <!-- NOTE Kraj menija-->
 
+        <!-- NOTE responsive menu -->
+        <div class="container-fluid slide_menu">
+            <div class="row">
+                <div class="col-xs-12 slide_menu_item">
+                    <span>Washing machines</span>
+                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                </div>
+                <div class="col-xs-12 slide_menu_item">
+                    <span>Drying machines</span>
+                </div>
+            </div>
+        </div>
+
 
 
         <div class="container site_content">
@@ -384,7 +397,7 @@
                 </div>
                 <div class="col-md-3 clear_margine sm_banner_5">
                     <a href="#">
-                        <div class="facebook_banner sm_banner_init_2">
+                        <div class="facebook_banner">
                             <h4>Join us on</h4>
                             <img class="fb-logo" src="img/brands/facebook.png" alt="facebook">
                             <div class="fb-count"></div><span>people like us</span>
