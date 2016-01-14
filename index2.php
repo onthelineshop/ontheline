@@ -24,7 +24,7 @@
 
                 <!--NOTE Pocetak menija-->
 
-                <div class="row ">
+                <div class="row">
                     <div class="col-md-12">
                         <nav>
                             <ul class="nav_bar">
@@ -192,7 +192,7 @@
         <!-- NOTE Kraj banners slider -->
 
         <!-- NOTE HTML Pocetak feature benefit area -->
-        <div class="container-fluid color_green content_margine benefit_responsive">
+        <div class="container-fluid color_gray content_margine benefit_responsive">
             <div class="container">
                 <div class="row">
 
@@ -227,7 +227,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid color_green content_margine benefit_main">
+        <div class="container-fluid color_gray content_margine benefit_main">
             <div class="container">
                 <div class="row">
 
@@ -256,7 +256,7 @@
                         </div>
                     </a>
                     <a class="benefit_area_link" href="#">
-                        <div class="col-xs-3 benefit_area benefit_area_last_feature">
+                        <div class="col-xs-3 benefit_area">
                             <img class="benefit_icon_size3" src="img/icons/click-collect.svg" alt="">
                             <div class="ben-area-txt">
                                 <h4>Click &#38; collect</h4>
@@ -272,7 +272,7 @@
         <!-- NOTE HTML Pocetak velike banner sekcije -->
         <div class="container">
             <div class="row content_margine b-banner">
-                <div class="col-md-12 banner_box_right">
+                <div class="col-md-12 mar_pad_reset">
                     <div class="big_banner_init">
                         <a class="bestbuy_banner big_banner_style" href="#">
                             <h1>BEST BUY</br>PRODUCTS</h1>

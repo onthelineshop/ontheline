@@ -701,14 +701,14 @@ a.smart_search_items {
 .newsletter_banner {
     margin: 0;
     padding: 0;
-    height: 220px;
+    height: 160px;
     background: #ffdd00;
 }
 
 .newsletter_banner>h3 {
     color: #333;
     margin: 0;
-    padding: 30px 0 0 20px;
+    padding: 20px 0 0 20px;
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
 }
@@ -725,6 +725,7 @@ a.smart_search_items {
     margin: 0;
     padding: 0;
     background: #3b5998;
+    height: 160px;
 }
 
 .facebook_banner>h4 {
@@ -743,8 +744,8 @@ a.smart_search_items {
 .like-icon {
     position: absolute;
     width: 65px;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 30px;
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
 }
@@ -769,7 +770,7 @@ a.smart_search_items {
 }
 
 .facebook_banner:hover .like-icon {
-    bottom: 15px;
+    bottom: 25px;
 }
 
 .sm_link_indicator {
@@ -785,7 +786,7 @@ a.smart_search_items {
     z-index: 1;
     display: inline-block;
     margin: 1em;
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 350px;
     width: calc(100% - 2em);
     vertical-align: top;
