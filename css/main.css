@@ -499,7 +499,7 @@ a.smart_search_items {
         display: none;
     }
     .ben-area-txt>h4 {
-        font-size: 100%;
+        font-size: 90%;
     }
     .ben-area-txt {
         padding: 30px 0 0 10px;
@@ -509,9 +509,6 @@ a.smart_search_items {
 @media screen and (max-width: 757px) {
     .benefit_responsive {
         display: none;
-    }
-    .ben-area-txt>h4 {
-        font-size: 50%;
     }
 }
 
@@ -738,7 +735,7 @@ a.smart_search_items {
 .loyalty_card_banner>p {
     font-family: "poxima-nova", sans-serif;
     margin: 0;
-    padding: 5px 0 0 20px;
+    padding: 5px 10px 0 20px;
     color: #fff;
 }
 
@@ -773,7 +770,7 @@ a.smart_search_items {
     font-family: "proxima-nova", sans-serif;
     color: #fff;
     margin: 0;
-    padding: 10px 0 0 20px;
+    padding: 10px 10px 0 20px;
 }
 
 .newsletter_banner {
@@ -859,7 +856,14 @@ a.smart_search_items {
 
 /* NOTE CSS Responsive baneri */
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    .gift_card_banner>img {
+        width: 30px;
+    }
+    .loyalty_card_banner>img {
+        width: 40px;
+    }
+}
 
 @media screen and (max-width: 991px) {
     .bestbuy_img {
@@ -868,6 +872,28 @@ a.smart_search_items {
         right: 10%;
         top: 30px;
         opacity: 0.7;
+    }
+    .sm_banner_1 {
+        padding: 0;
+        margin: 0;
+    }
+    .sm_banner_2 {
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    .sm_banner_3 {
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    .sm_banner_4 {
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    .gift_card_banner>img {
+        width: 100px;
+    }
+    .loyalty_card_banner>img {
+        width: 110px;
     }
 }
 
@@ -881,7 +907,7 @@ a.smart_search_items {
     .big_banner_init>.big_banner_style>p {
         font-size: 14px;
     }
-    link_indicator>span {
+    .link_indicator>span {
         display: none;
     }
 }
