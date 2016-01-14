@@ -84,7 +84,7 @@ nav>ul>li>a {
     position: absolute;
     top: 50px;
     left: 0;
-/*
+    /*
     margin-top: 14px;
  margin-left: -25px;
 */
@@ -281,17 +281,6 @@ nav>ul>li>a {
     transform: translateX(0%);
 }
 
-
-/*
-.smart_search {
-    position: absolute;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    background: #00B3FF;
-}
-*/
-
 a.smart_search_items {
     display: inline-block;
     float: left;
@@ -334,7 +323,27 @@ a.smart_search_items {
 
 /* TODO CSS Responsive smart search */
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    .text-smart-filter {
+        padding-left: 23%;
+    }
+    .search_slider {
+        height: 400px;
+        width: 970px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .text-smart-filter {
+        padding-left: 13%;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .smart_search {
+        display: none;
+    }
+}
 
 
 /* TODO Uraditi responsive za Smart search */
@@ -471,6 +480,39 @@ a.smart_search_items {
 
 .benefit_responsive {
     display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .benefit_responsive {
+        display: block;
+    }
+    .benefit_main {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .text-smart-filter {
+        padding-left: 13%;
+    }
+    .ben-area-txt>p {
+        display: none;
+    }
+    .ben-area-txt>h4 {
+        font-size: 100%;
+    }
+    .ben-area-txt {
+        padding: 30px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .benefit_responsive {
+        display: none;
+    }
+    .ben-area-txt>h4 {
+        font-size: 50%;
+    }
 }
 
 
@@ -812,6 +854,36 @@ a.smart_search_items {
 .sm_link_indicator {
     bottom: 15px !important;
     right: 50px !important;
+}
+
+
+/* NOTE CSS Responsive baneri */
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 991px) {
+    .bestbuy_img {
+        position: absolute;
+        width: 40%;
+        right: 10%;
+        top: 30px;
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .bestbuy_img {
+        display: none;
+    }
+    .big_banner_init>.big_banner_style>h1 {
+        font-size: 40px;
+    }
+    .big_banner_init>.big_banner_style>p {
+        font-size: 14px;
+    }
+    link_indicator>span {
+        display: none;
+    }
 }
 
 
