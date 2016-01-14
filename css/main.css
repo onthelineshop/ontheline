@@ -440,7 +440,6 @@ a.smart_search_items {
 
 /* NOTE CSS Pocetak banner sekcijea */
 
-
 .mar_pad_reset {
     padding: 0;
     margin: 0;
@@ -476,7 +475,7 @@ a.smart_search_items {
     font-weight: 700;
     font-size: 50px;
     color: #fff;
-    padding: 40px 0 0 20px;
+    padding: 35px 0 0 20px;
     line-height: 0.9em;
 }
 
@@ -499,7 +498,7 @@ a.smart_search_items {
 .link_indicator {
     position: absolute;
     height: 20px;
-    right: 60px;
+    right: 40px;
     bottom: 20px;
     color: #fff;
 }
@@ -622,22 +621,78 @@ a.smart_search_items {
     width: 205px;
 }
 
+.customer_care_banner {
+    display: block;
+    height: 100%;
+    background: #00b8ad;
+}
+
+.customer_care_banner>h2 {
+    font-family: "poxima-nova", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    color: #fff;
+}
+
+.customer_care_banner>p {
+    font-family: "poxima-nova", sans-serif;
+    width: 70%;
+    margin: 0;
+    padding: 5px 0 0 20px;
+    color: #fff;
+}
+
+.loyalty_card_banner {
+    display: block;
+    height: 100%;
+    background: #00B3FF;
+}
+
+.loyalty_card_banner>h3 {
+    font-family: "poxima-nova", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    color: #fff;
+}
+
+.loyalty_card_banner>p {
+    font-family: "poxima-nova", sans-serif;
+    margin: 0;
+    padding: 5px 0 0 20px;
+    color: #fff;
+}
+
+.loyalty_card_banner>img {
+    position: absolute;
+    width: 70px;
+    left: 30px;
+    bottom: 10px;
+}
+
 .gift_card_banner {
     display: block;
     height: 100%;
     background: #c30074;
 }
 
-.gift_card_banner>h2 {
+.gift_card_banner>h3 {
     color: #fff;
     margin: 0;
     padding: 20px 0 0 20px;
     font-weight: 700;
 }
 
+.gift_card_banner>img {
+    position: absolute;
+    width: 60px;
+    left: 30px;
+    bottom: 15px;
+}
+
 .gift_card_banner>p {
     font-family: "proxima-nova", sans-serif;
-    width: 200px;
     color: #fff;
     margin: 0;
     padding: 10px 0 0 20px;
