@@ -206,3 +206,40 @@ a {
 .search_bar.large input[type=text] {
     font-size: 14px;
 }
+
+
+/* NOTE Responsive header search */
+
+.responsive_header {
+    background: #eee;
+    display: none;
+}
+
+.responsive_menu_header {
+    margin-top: 10px;
+    background: #333;
+    height: 50px;
+}
+
+.responsive_menu_header i {
+    padding: 10px;
+    color: #fff;
+    font-size: 150%;
+}
+
+.search_resonsive i {
+    margin-left: 30%;
+}
+
+.phone_resonsive i {
+    float: right;
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        display: none;
+    }
+    .responsive_header {
+        display: block;
+    }
+}
