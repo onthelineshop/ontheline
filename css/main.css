@@ -382,7 +382,7 @@ a.smart_search_items {
 }
 
 .benefit_icon_size {
-    width: 40px;
+    width: 35px;
 }
 
 .benefit_icon_size2 {
@@ -440,57 +440,34 @@ a.smart_search_items {
 
 /* NOTE CSS Pocetak banner sekcijea */
 
-.banner_box_left {
-    padding: 0 10px 0 0;
-    margin: 0;
-}
 
-.banner_box_right {
-    padding: 0 0 0 10px;
+.mar_pad_reset {
+    padding: 0;
     margin: 0;
 }
 
 .big_banner_init {
     margin: 0;
     padding: 0;
-    height: 300px;
-    /*        background: #eb164b;*/
-    /*        cursor: pointer;*/
+    height: 220px;
     -webkit-transition: .2s ease-in;
     transition: .2s ease-in;
     overflow: hidden;
 }
 
-.discount_banner {
-    display: block;
-    height: 100%;
-    background: #eb164b;
-    overflow: hidden;
-}
-
-.discount_banner_img {
-    position: absolute;
-    width: 200px;
-    right: 10px;
-    top: 35px;
-    opacity: 0.7;
-}
-
-.bestbuy_img {
-    position: absolute;
-    width: 220px;
-    right: 0px;
-    top: 10px;
-    opacity: 0.7;
-}
-
 .big_banner_init:hover {
-    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.7);
 }
 
 .big_banner_style {
     padding: 0;
     margin: 0;
+}
+
+.bestbuy_banner {
+    display: block;
+    height: 100%;
+    background: #551f79;
 }
 
 .big_banner_init>.big_banner_style>h1 {
@@ -499,21 +476,24 @@ a.smart_search_items {
     font-weight: 700;
     font-size: 50px;
     color: #fff;
-    padding: 50px 0 0 20px;
+    padding: 40px 0 0 20px;
     line-height: 0.9em;
 }
 
 .big_banner_init>.big_banner_style>p {
     font-family: "proxima-nova", sans-serif;
-    width: 200px;
+    width: 250px;
     color: #fff;
     padding: 10px 0 0 20px;
+    font-size: 18px;
 }
 
-.bestbuy_banner {
-    display: block;
-    height: 100%;
-    background: #551f79;
+.bestbuy_img {
+    position: absolute;
+    width: 40%;
+    right: 25%;
+    top: 30px;
+    opacity: 0.7;
 }
 
 .link_indicator {
