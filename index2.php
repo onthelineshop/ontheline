@@ -135,30 +135,54 @@
         <!-- NOTE responsive menu -->
         <div class="container-fluid slide_menu">
             <div class="row">
-                <div class="col-xs-12 slide_menu_item">
-                    <span>Washing machines</span>
-                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
-                </div>
-                <div class="col-xs-12 slide_menu_item">
-                    <span>Tumble dryers</span>
-                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
-                </div>
-                <div class="col-xs-12 slide_menu_item">
-                    <span>Fridges Freezers</span>
-                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
-                </div>
-                <div class="col-xs-12 slide_menu_item">
-                    <span>Dishwashers</span>
-                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
-                </div>
-                <div class="col-xs-12 slide_menu_item">
-                    <span>Cooking appliances</span>
-                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
-                </div>
-                <div class="col-xs-12 slide_menu_item">
-                    <span>Built-in appliances</span>
-                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
-                </div>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Washing machines</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Tumble dryers</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Fridges Freezers</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Dishwashers</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Cooking appliances</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Built-in appliances</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Small appliances</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="col-xs-12 slide_menu_item">
+                        <span>Sound &#38; Vision</span>
+                        <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                    </div>
+                </a>
             </div>
         </div>
 

@@ -192,7 +192,6 @@ nav>ul>li>a {
 }
 
 
-
 /* NOTE CSS Responsive slide menu */
 
 .slide_menu {
@@ -224,6 +223,14 @@ nav>ul>li>a {
     background: #00B3FF;
 }
 
+.slide_menu_item:hover span {
+    color: #fff;
+}
+
+.slide_menu_item:hover i {
+    color: #fff;
+}
+
 .slide_menu_icon {
     position: absolute;
     right: 20px;
@@ -232,6 +239,7 @@ nav>ul>li>a {
 
 .slide_menu_item>span {
     font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
 }
 
 
