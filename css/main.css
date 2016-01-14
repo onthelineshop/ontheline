@@ -62,7 +62,7 @@ nav>ul>li:hover {
 }
 
 nav>ul>li>a {
-    font-family: Montserrat-Regular;
+    font-family: "proxima-nova", sans-serif;
     width: 100%;
     text-decoration: none !important;
     color: #eee;
@@ -82,7 +82,7 @@ nav>ul>li>a {
 
 .washdry_items {
     position: absolute;
-    margin-top: 15px;
+    margin-top: 14px;
     margin-left: -25px;
     padding: 0;
     width: 1170px;
@@ -98,7 +98,7 @@ nav>ul>li>a {
 }
 
 .dropdown_items {
-    font-family: Montserrat-Regular;
+    font-family: "proxima-nova", sans-serif;
     font-size: 12px;
     margin-top: 10px;
     margin-left: 15px;
@@ -143,7 +143,7 @@ nav>ul>li>a {
 
 .fridge_items {
     position: absolute;
-    margin-top: 15px;
+    margin-top: 14px;
     margin-left: -243px;
     padding: 0;
     width: 1170px;
@@ -152,6 +152,18 @@ nav>ul>li>a {
     display: none;
     background: #eee;
     z-index: 99998;
+}
+
+
+/* NOTE CSS Responsive dropdown menu */
+
+@media screen and (max-width: 1199px) {
+    nav>ul>li {
+        padding-left: 5px;
+    }
+    nav>ul>li>a {
+        font-size: 13px;
+    }
 }
 
 
@@ -299,6 +311,11 @@ a.smart_search_items {
     -ms-transform: translateY(0%);
     transform: translateY(0%);
 }
+
+
+/* TODO CSS Responsive smart search */
+
+@media screen and (max-width: 1200px) {}
 
 
 /* TODO Uraditi responsive za Smart search */
