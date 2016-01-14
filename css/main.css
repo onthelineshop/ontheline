@@ -29,7 +29,7 @@ a {
 /* NOTE Navigacija i padajuci meni*/
 
 .menu-main {
-    background: #444;
+    background: #333;
 }
 
 .nav_bar {
@@ -177,18 +177,40 @@ nav>ul>li>a {
         width: 970px;
         height: 270px;
     }
+    .slide_menu {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 991px) {
     .menu-main {
         display: none;
     }
+    .slide_menu {
+        display: block;
+    }
 }
+
 
 
 /* NOTE CSS Responsive slide menu */
 
-.slide_menu {}
+.slide_menu {
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.slide_menu_trigger {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+}
 
 .slide_menu_item {
     position: relative;
@@ -196,6 +218,10 @@ nav>ul>li>a {
     background: #eee;
     padding: 15px;
     border-top: 1px solid #aaa;
+}
+
+.slide_menu_item:hover {
+    background: #00B3FF;
 }
 
 .slide_menu_icon {

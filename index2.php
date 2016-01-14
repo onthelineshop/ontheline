@@ -140,7 +140,24 @@
                     <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
                 </div>
                 <div class="col-xs-12 slide_menu_item">
-                    <span>Drying machines</span>
+                    <span>Tumble dryers</span>
+                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                </div>
+                <div class="col-xs-12 slide_menu_item">
+                    <span>Fridges Freezers</span>
+                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                </div>
+                <div class="col-xs-12 slide_menu_item">
+                    <span>Dishwashers</span>
+                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                </div>
+                <div class="col-xs-12 slide_menu_item">
+                    <span>Cooking appliances</span>
+                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
+                </div>
+                <div class="col-xs-12 slide_menu_item">
+                    <span>Built-in appliances</span>
+                    <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
                 </div>
             </div>
         </div>
@@ -338,8 +355,6 @@
                                     <div class="arrow_indicator"></div>
                                 </div>
                             </div>
-
-
                         </a>
                     </div>
                 </div>
@@ -613,6 +628,25 @@
                 });
             });
         </script>
+
+        <script>
+            $(document).ready(function () {
+
+                $(document).mouseup(function (e) {
+                    var container = $(".slide_menu_trigger");
+                    var menu = $(".menu_button");
+                    if (menu.is(e.target)) {
+                        $(".slide_menu").toggleClass("slide_menu_trigger");
+                    } else if (!container.is(e.target) // if the target of the click isn't the container...
+                        && container.has(e.target).length === 0 // ... nor a descendant of the container
+                        && container.length > 0) { //if container exists
+                        container.removeClass("slide_menu_trigger");
+                    }
+                });
+            });
+        </script>
+
+
 
 
 
