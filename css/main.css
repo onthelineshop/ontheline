@@ -829,6 +829,7 @@ a.smart_search_items {
     cursor: pointer;
     -webkit-transition: .2s ease-in;
     transition: .2s ease-in;
+    border-radius: 5px;
 }
 
 .sm_banner_init:hover {
