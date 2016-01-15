@@ -149,7 +149,7 @@
                 </a>
                 <a href="#">
                     <div class="col-xs-12 slide_menu_item">
-                        <span>Fridges Freezers</span>
+                        <span>Fridges &#38; Freezers</span>
                         <i class="glyphicon glyphicon-chevron-right slide_menu_icon"></i>
                     </div>
                 </a>
@@ -189,7 +189,7 @@
 
         <!-- NOTE Pocetak smart search responsive-->
 
-        <div class="row content_margine">
+        <div class="row content_margine cps_responsive">
             <div class="col-xs-12">
                 <div class="category_product_slider">
                     <div class="next_category_product glyphicon glyphicon-chevron-right"></div>
@@ -198,25 +198,31 @@
                     <div id="category_product" class="category_product">
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/wm_icon_blue.jpg" /></a>
-                            <span>Washing machines</span>
+                            <h4>Washing machines</h4>
                         </div>
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/dry_icon_blue.jpg" /></a>
+                            <h4>Tumble dryers</h4>
                         </div>
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/fridge_icon_blue.jpg" /></a>
+                            <h4>Fridges &#38; Freezers</h4>
                         </div>
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/dishwash_icon_blue.jpg" /></a>
+                            <h4>Dishwashers</h4>
                         </div>
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/hobs_icon_blue.jpg" /></a>
+                            <h4>Cooking appliances</h4>
                         </div>
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/ovens_icon_blue.jpg" /></a>
+                            <h4>Built-in appliances</h4>
                         </div>
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/av_icon_blue.jpg" /></a>
+                            <h4>Sound &#38; Vision</h4>
                         </div>
                     </div>
                 </div>
