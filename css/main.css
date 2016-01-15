@@ -620,7 +620,7 @@ a.smart_search_items {
 
 .ben-area-txt {
     float: left;
-    padding: 20px 0 0 10px;
+    padding: 25px 0 0 10px;
 }
 
 .ben-area-txt>h4 {
@@ -630,7 +630,7 @@ a.smart_search_items {
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .ben-area-txt>p {
