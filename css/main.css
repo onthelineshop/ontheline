@@ -378,6 +378,40 @@ a.smart_search_items {
 }
 
 
+/* TODO CSS Responsive category products */
+
+.category_product_slider {
+    padding: 20px 0 0 0;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: #eee;
+    border-radius: 5px
+}
+
+.category_product_slider h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.category_product {
+    display: inline-block;
+}
+
+.category_img {
+    text-align: center;
+}
+
+.category_product .category_img a {
+    display: block;
+}
+
+.category_product .category_img span {
+    top: 20px;
+}
+
+
 /* TODO CSS Responsive smart search */
 
 @media screen and (max-width: 1200px) {

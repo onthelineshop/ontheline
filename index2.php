@@ -187,6 +187,45 @@
         </div>
 
 
+        <!-- NOTE Pocetak smart search responsive-->
+
+        <div class="row content_margine">
+            <div class="col-xs-12">
+                <div class="category_product_slider">
+                    <div class="next_category_product glyphicon glyphicon-chevron-right"></div>
+                    <div class="prev_category_product glyphicon glyphicon-chevron-left"></div>
+                    <h4>Choose category of products</h4>
+                    <div id="category_product" class="category_product">
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/wm_icon_blue.jpg" /></a>
+                            <span>Washing machines</span>
+                        </div>
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/dry_icon_blue.jpg" /></a>
+                        </div>
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/fridge_icon_blue.jpg" /></a>
+                        </div>
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/dishwash_icon_blue.jpg" /></a>
+                        </div>
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/hobs_icon_blue.jpg" /></a>
+                        </div>
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/ovens_icon_blue.jpg" /></a>
+                        </div>
+                        <div class="category_img">
+                            <a href="#"><img src="img/smart_img/av_icon_blue.jpg" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
 
         <div class="container site_content">
 
@@ -611,6 +650,7 @@
         <!-- NOTE JS Brand slider -->
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="js/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+        <!--
         <script type="text/javascript">
             $(document).ready(function () {
                 var owl = $("#brand_section_slider");
@@ -632,6 +672,31 @@
                 })
             });
         </script>
+-->
+
+        <!-- NOTE JS Category product slider -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var owl = $("#category_product");
+
+                owl.owlCarousel({
+                    navigation: false, // Show next and prev buttons
+                    slideSpeed: 300,
+                    paginationSpeed: 400,
+                    singleItem: true
+                });
+
+                // Custom Navigation Events
+                $(".next_category_product").click(function () {
+                    owl.trigger('owl.next');
+                })
+                $(".prev_category_product").click(function () {
+                    owl.trigger('owl.prev');
+                })
+            });
+        </script>
+
+
 
 
         <script>
