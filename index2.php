@@ -194,7 +194,7 @@
                 <div class="category_product_slider">
                     <div class="next_category_product glyphicon glyphicon-chevron-right"></div>
                     <div class="prev_category_product glyphicon glyphicon-chevron-left"></div>
-                    <h4>Choose category of products</h4>
+                    <h3>Choose a category</h3>
                     <div id="category_product" class="category_product">
                         <div class="category_img">
                             <a href="#"><img src="img/smart_img/wm_icon_blue.jpg" /></a>
@@ -247,7 +247,6 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-
                 <div class="col-md-12 search_slider">
                     <div class="search_slider_main">
                         <a class="smart_search_wm smart_search_items" data-title="Washing machines" href="#"><img src="img/smart_img/wm_icon_blue.jpg" alt=""></a>
@@ -613,7 +612,6 @@
 
 
         <!-- NOTE JS Pocetak Newsletter -->
-
         <script src="js/classie.js"></script>
         <script>
             (function () {
@@ -704,9 +702,9 @@
 
 
 
-
+        <!-- NOTE JS Facebook counter -->
         <script>
-            /*    LIKES COUNT  */
+            /*  LIKES COUNT  */
             var likesAPI = "https://api.facebook.com/method/fql.query?query=select%20like_count%20from%20link_stat%20where%20url=%27https://www.facebook.com/gorenjestudio%27&format=json";
             $.getJSON(likesAPI, function (data) {
                 var name = data[0];
@@ -714,6 +712,9 @@
             });
         </script>
 
+
+
+        <!-- NOTE JS Smart search text effect -->
         <script type="text/javascript" src="js/typed.js"></script>
         <script>
             $(function () {
@@ -727,6 +728,8 @@
             });
         </script>
 
+
+        <!-- NOTE JS Responsive slide meni -->
         <script>
             $(document).ready(function () {
 
@@ -739,6 +742,22 @@
                         && container.has(e.target).length === 0 // ... nor a descendant of the container
                         && container.length > 0) { //if container exists
                         container.removeClass("slide_menu_trigger");
+                    }
+                });
+            });
+        </script>
+
+
+        <!-- NOTE JS Responsive slide meni - u zavisnosti od sirine prozora uklanja slide menu -->
+        <script>
+            $(document).ready(function () {
+
+                $(window).resize(function () {
+                    // This will execute whenever the window is resized
+                    var h = $(window).height(); // New height
+                    var w = $(window).width(); // New width
+                    if (w > 992) {
+                        $(".slide_menu_trigger").removeClass("slide_menu_trigger");
                     }
                 });
             });

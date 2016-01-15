@@ -84,10 +84,6 @@ nav>ul>li>a {
     position: absolute;
     top: 50px;
     left: 0;
-    /*
-    margin-top: 14px;
- margin-left: -25px;
-*/
     padding: 0;
     width: 1170px;
     height: 270px;
@@ -177,18 +173,22 @@ nav>ul>li>a {
         width: 970px;
         height: 270px;
     }
+    /*
     .slide_menu {
-        display: none;
-    }
+     display: none;
+ }
+*/
 }
 
 @media screen and (max-width: 991px) {
     .menu-main {
         display: none;
     }
+    /*
     .slide_menu {
         display: block;
     }
+*/
 }
 
 
@@ -203,6 +203,7 @@ nav>ul>li>a {
     transform: translateX(-100%);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .slide_menu_trigger {
@@ -216,7 +217,7 @@ nav>ul>li>a {
     height: 50px;
     background: #eee;
     padding: 15px;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #fff;
 }
 
 .slide_menu_item:hover {
@@ -240,6 +241,12 @@ nav>ul>li>a {
 .slide_menu_item>span {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
+    color: #333;
+}
+
+.slide_menu_item>i {
+    font-size: 120%;
+    color: #aaa;
 }
 
 
@@ -313,7 +320,7 @@ nav>ul>li>a {
 .search_slider_main {
     width: 100%;
     height: 100%;
-    background: #333;
+    background: #eee;
 }
 
 .search_slider_wm {
@@ -345,12 +352,14 @@ a.smart_search_items {
     width: 12%;
     margin: 2% 0 0 2%;
     overflow: hidden;
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .smart_search_items>img {
     display: block;
     width: 100%;
     height: 100%;
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .smart_search_items::before {
@@ -366,7 +375,7 @@ a.smart_search_items {
     transform: translateY(-100%);
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
-    background: #eee;
+    background: #fff;
     color: #333;
     z-index: 1;
 }
@@ -381,7 +390,7 @@ a.smart_search_items {
 /* TODO CSS Responsive category products */
 
 .cps_responsive {
-    display: none;
+    display: none !important;
 }
 
 .category_product_slider {
@@ -389,10 +398,11 @@ a.smart_search_items {
     padding: 20px 0 0 0;
     text-align: center;
     width: 350px;
-    height: 350px;
+    height: 370px;
     margin: 0 auto;
     background: #eee;
-    border-radius: 5px
+    border-radius: 5px;
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.6);
 }
 
 .next_category_product {
@@ -423,12 +433,12 @@ a.smart_search_items {
     color: #aaa;
 }
 
-.category_product_slider>h4 {
+.category_product_slider>h3 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
     text-align: center;
     padding-bottom: 20px;
-    color: #aaa;
+    color: #777;
 }
 
 .category_product {
@@ -486,7 +496,16 @@ a.smart_search_items {
         display: none;
     }
     .cps_responsive {
-        display: block;
+        display: block !important;
+    }
+    .search_slider_main {
+        display: none !important;
+    }
+    .search_slider {
+        display: none !important;
+    }
+    .search_slider_wm {
+        display: none !important;
     }
 }
 
@@ -679,6 +698,7 @@ a.smart_search_items {
     -webkit-transition: .2s ease-in;
     transition: .2s ease-in;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .big_banner_init:hover {
@@ -825,6 +845,7 @@ a.smart_search_items {
     display: block;
     height: 100%;
     background: #8a9297;
+    border-radius: 5px;
 }
 
 .help_support_banner>h4 {
@@ -852,6 +873,7 @@ a.smart_search_items {
     display: block;
     height: 100%;
     background: #00b8ad;
+    border-radius: 5px;
 }
 
 .customer_care_banner>h2 {
@@ -874,6 +896,7 @@ a.smart_search_items {
     display: block;
     height: 100%;
     background: #00B3FF;
+    border-radius: 5px;
 }
 
 .loyalty_card_banner>h3 {
@@ -902,6 +925,7 @@ a.smart_search_items {
     display: block;
     height: 100%;
     background: #c30074;
+    border-radius: 5px;
 }
 
 .gift_card_banner>h3 {
@@ -930,6 +954,7 @@ a.smart_search_items {
     padding: 0;
     height: 160px;
     background: #ffdd00;
+    border-radius: 5px;
 }
 
 .newsletter_banner>h3 {
@@ -955,6 +980,7 @@ a.smart_search_items {
     height: 160px;
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
+    border-radius: 5px;
 }
 
 .facebook_banner>h4 {
@@ -1254,6 +1280,7 @@ a.smart_search_items {
     text-transform: uppercase;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    border-radius: 5px;
 }
 
 .signinBtn:hover {
