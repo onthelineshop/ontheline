@@ -620,7 +620,7 @@ a.smart_search_items {
 .ben-area-txt>h4 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
-    color: #00B3FF;
+    color: #551f79;
     padding: 0;
     margin: 0;
     text-transform: uppercase;
@@ -755,9 +755,59 @@ a.smart_search_items {
 }
 
 .link_indicator>span {
-    float: left;
+    float: right;
     letter-spacing: 2px;
     width: auto;
+}
+
+.arrow_svg {
+    display: block;
+    float: right;
+    width: 30px;
+    padding: 0;
+    margin-left: 5px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.link_arrow {
+    position: absolute;
+    width: 200px;
+    right: 35px;
+    bottom: 15px;
+}
+
+.gift_card_arrow {
+    position: absolute;
+    width: 200px;
+    right: 25px;
+    bottom: 15px;
+}
+
+.color_green span {
+    color: #00b8ad;
+}
+
+.color_white span {
+    color: #FFF;
+}
+
+.link_arrow span {
+    margin: 0;
+    padding: 3px 0 0 0;
+    letter-spacing: 2px;
+    float: right;
+    font-size: 12px;
+}
+
+.sm_banner_init:hover .arrow_svg {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+.big_banner_init:hover .arrow_svg {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
 }
 
 .arrow_indicator,
@@ -871,7 +921,7 @@ a.smart_search_items {
 .customer_care_banner {
     display: block;
     height: 100%;
-    background: #00b8ad;
+    /*    background: #00b8ad;*/
     border-radius: 5px;
 }
 
@@ -880,15 +930,23 @@ a.smart_search_items {
     font-weight: 700;
     margin: 0;
     padding: 20px 0 0 20px;
-    color: #fff;
+    color: #00b8ad;
 }
 
 .customer_care_banner>p {
     font-family: "poxima-nova", sans-serif;
-    width: 70%;
+    width: 50%;
     margin: 0;
     padding: 5px 0 0 20px;
-    color: #fff;
+    color: #00b8ad;
+}
+
+.customer_nav_arrow>span {
+    color: #00b8ad;
+}
+
+.arrow_indicator {
+    border: 1 solid #00b8ad !important;
 }
 
 .loyalty_card_banner {
@@ -898,7 +956,7 @@ a.smart_search_items {
     border-radius: 5px;
 }
 
-.loyalty_card_banner>h3 {
+.loyalty_card_banner>h2 {
     font-family: "poxima-nova", sans-serif;
     font-weight: 700;
     margin: 0;
@@ -908,6 +966,7 @@ a.smart_search_items {
 
 .loyalty_card_banner>p {
     font-family: "poxima-nova", sans-serif;
+    width: 250px;
     margin: 0;
     padding: 5px 10px 0 20px;
     color: #fff;
@@ -915,7 +974,7 @@ a.smart_search_items {
 
 .loyalty_card_banner>img {
     position: absolute;
-    width: 70px;
+    width: 45px;
     left: 30px;
     bottom: 10px;
 }
@@ -923,11 +982,11 @@ a.smart_search_items {
 .gift_card_banner {
     display: block;
     height: 100%;
-    background: #c30074;
+    /*    background: #c30074;*/
     border-radius: 5px;
 }
 
-.gift_card_banner>h3 {
+.gift_card_banner>h2 {
     color: #fff;
     margin: 0;
     padding: 20px 0 0 20px;
@@ -936,16 +995,30 @@ a.smart_search_items {
 
 .gift_card_banner>img {
     position: absolute;
-    width: 60px;
+    width: 40px;
     left: 30px;
     bottom: 15px;
 }
 
 .gift_card_banner>p {
     font-family: "proxima-nova", sans-serif;
+    width: 250px;
     color: #fff;
     margin: 0;
     padding: 10px 10px 0 20px;
+}
+
+.loyalty_background {
+    background: url(../img/banners/giftcard_program.jpg) no-repeat;
+    background-size: cover;
+}
+
+.customer_background {
+    /*    background: #00b8ad;*/
+    background: #ddd;
+    background-image: url(../img/banners/customer_care.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .newsletter_banner {
