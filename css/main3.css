@@ -785,7 +785,7 @@ a.smart_search_items {
 }
 
 .color_green span {
-    color: #00b8ad;
+    color: #00B3FF;
 }
 
 .color_white span {
@@ -889,7 +889,7 @@ a.smart_search_items {
     font-weight: 700;
     margin: 0;
     padding: 20px 0 0 20px;
-    color: #00b8ad;
+    color: #00B3FF;
 }
 
 .customer_care_banner>p {
@@ -897,15 +897,11 @@ a.smart_search_items {
     width: 50%;
     margin: 0;
     padding: 5px 0 0 20px;
-    color: #00b8ad;
+    color: #00B3FF;
 }
 
 .customer_nav_arrow>span {
-    color: #00b8ad;
-}
-
-.arrow_indicator {
-    border: 1 solid #00b8ad !important;
+    color: #00B3FF;
 }
 
 .loyalty_card_banner {
