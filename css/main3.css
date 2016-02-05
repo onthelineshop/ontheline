@@ -566,7 +566,7 @@ a.smart_search_items {
 .benefit_area_text>h4 {
     line-height: 130%;
     padding: 5px 0 0 10px;
-    color: #333;
+    color: #888;
     font-weight: 700;
 }
 
@@ -620,7 +620,7 @@ a.smart_search_items {
 .ben-area-txt>h4 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700;
-    color: #551f79;
+    color: #888;
     padding: 0;
     margin: 0;
     text-transform: uppercase;
@@ -628,7 +628,7 @@ a.smart_search_items {
 }
 
 .ben-area-txt>p {
-    color: #333;
+    color: #888;
     padding: 0;
     margin: 0;
     font-size: 12px;
@@ -810,47 +810,6 @@ a.smart_search_items {
     transform: translateX(10px);
 }
 
-.arrow_indicator,
-.arrow_indicator:before {
-    border: 0 solid #fff;
-}
-
-.arrow_indicator {
-    margin-top: 24px;
-    float: right;
-    right: 0px;
-    border-width: 2px 0 0 2px;
-    width: 20px;
-    height: 20px;
-    -webkit-transform-origin: top right;
-    transform-origin: top right;
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
-}
-
-.arrow_indicator:before {
-    display: block;
-    content: " ";
-    border-top-width: 2px;
-    width: 30px;
-    -webkit-transform-origin: top left;
-    transform-origin: top left;
-    -webkit-transform: rotate(45deg) translate(0, -1px);
-    transform: rotate(45deg) translate(0, -1px);
-}
-
-.arrow_init {
-    float: left;
-    margin-left: 10px;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-.big_banner_init:hover .arrow_init {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
-}
-
 .sm_banner_1 {
     padding: 0 10px 0 0;
     margin: 0;
@@ -952,7 +911,7 @@ a.smart_search_items {
 .loyalty_card_banner {
     display: block;
     height: 100%;
-    background: #00B3FF;
+    /*    background: #00B3FF;*/
     border-radius: 5px;
 }
 
@@ -1008,7 +967,7 @@ a.smart_search_items {
     padding: 10px 10px 0 20px;
 }
 
-.loyalty_background {
+.giftcard_background {
     background: url(../img/banners/giftcard_program.jpg) no-repeat;
     background-size: cover;
 }
@@ -1018,6 +977,11 @@ a.smart_search_items {
     background: #ddd;
     background-image: url(../img/banners/customer_care.png);
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loyalty_background {
+    background: url(../img/banners/loyalty.jpg) no-repeat;
     background-size: cover;
 }
 

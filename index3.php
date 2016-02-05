@@ -411,14 +411,14 @@
                     </div>
                 </div>
                 <div class="col-md-4 sm_banner_2">
-                    <div class="sm_banner_init">
+                    <div class="sm_banner_init loyalty_background">
                         <a class="loyalty_card_banner" href="#">
                             <h2>LOYALTY</br>PROGRAM</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                             <img class="loyalty-icon" src="img/icons/loyalty.svg" alt="loyalty">
                             <div class="link_arrow color_white">
                                 <img class="arrow_svg" src="img/svg/arrow_white.svg" alt="arrow">
-                                <span>FIND OUT MORE</span>
+                                <span></span>
                             </div>
 
                         </a>
@@ -426,14 +426,14 @@
 
                 </div>
                 <div class="col-md-4 sm_banner_4">
-                    <div class="sm_banner_init loyalty_background">
+                    <div class="sm_banner_init giftcard_background">
                         <a class="gift_card_banner" href="#">
                             <h2>GIFT CARD</br>PROGRAM</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur.</p>
                             <img class="giftcard-icon" src="img/icons/gift-card.svg" alt="gift-card">
                             <div class="link_arrow color_white gift_card_arrow">
                                 <img class="arrow_svg" src="img/svg/arrow_white.svg" alt="arrow">
-                                <span>FIND OUT MORE</span>
+                                <span></span>
                             </div>
                         </a>
                     </div>
